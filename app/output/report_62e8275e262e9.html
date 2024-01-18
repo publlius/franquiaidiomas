@@ -1,0 +1,1758 @@
+<html>
+<style>
+    .title
+    {
+        font-family: Helvetica;
+        color: #000000;
+        background-color: #dbdbdb;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-weight: bold;
+    }
+    .datap
+    {
+        font-family: Arial;
+        color: #333333;
+        background-color: #f0f0f0;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+    }
+    .datai
+    {
+        font-family: Arial;
+        color: #333333;
+        background-color: #ffffff;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+    }
+    .header
+    {
+        font-family: Helvetica;
+        color: #5a5a5a;
+        background-color: #6B6B6B;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 16pt;
+        font-weight: bold;
+    }
+    .footer
+    {
+        font-family: Helvetica;
+        color: #5a5a5a;
+        background-color: #A3A3A3;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-weight: bold;
+    }
+    .break
+    {
+        font-family: Helvetica;
+        color: #ffffff;
+        background-color: #9a9a9a;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-weight: bold;
+    }
+    .total
+    {
+        font-family: Helvetica;
+        color: #000000;
+        background-color: #c7c7c7;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-style: italic;
+    }
+    .breakTotal
+    {
+        font-family: Helvetica;
+        color: #000000;
+        background-color: #c6c8d0;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-style: italic;
+    }
+</style>
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse">
+<tr>
+<td align="left" width="58" colspan="1" class="title">Id</td>
+<td align="left" width="298" colspan="1" class="title">Aluno</td>
+<td align="left" width="98" colspan="1" class="title">Idioma</td>
+<td align="right" width="68" colspan="1" class="title"></td>
+<td align="left" width="148" colspan="1" class="title">Plano</td>
+<td align="right" width="68" colspan="1" class="title">R$ Plano</td>
+<td align="left" width="198" colspan="1" class="title">Situação</td>
+</tr>
+<tr><td align="left" width="948" colspan="7" class="break">Fraiburgo </td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">18</td>
+<td align="left" width="298" colspan="1" class="datai">Ana Paula Granemann</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual online - CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 200,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">39</td>
+<td align="left" width="298" colspan="1" class="datap">Felipe Massaroli</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Individual - CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 220,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">54</td>
+<td align="left" width="298" colspan="1" class="datai">Milko Ricardo Gouvêa </td>
+<td align="left" width="98" colspan="1" class="datai">Francês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual - 2 Idiomas - CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 190,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">64</td>
+<td align="left" width="298" colspan="1" class="datap">Raphaela Menezes da Silveira</td>
+<td align="left" width="98" colspan="1" class="datap">Francês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Individual online - SPEASY</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 220,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">87</td>
+<td align="left" width="298" colspan="1" class="datai">Arthur Possenti</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Dupla - Família CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 155,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">170</td>
+<td align="left" width="298" colspan="1" class="datap">teste menoir</td>
+<td align="left" width="98" colspan="1" class="datap">Espanhol</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Turma - CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 230,00</td>
+<td align="left" width="198" colspan="1" class="datap"></td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">320</td>
+<td align="left" width="298" colspan="1" class="datai">Danielle Camargo</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual - CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 220,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">326</td>
+<td align="left" width="298" colspan="1" class="datap">Bruno José Zabloski</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Dupla - Família CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 155,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1917</td>
+<td align="left" width="298" colspan="1" class="datai">Leticia Gabriela Cherobin Zabloski</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual - 2 Idiomas - Família CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 165,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">340</td>
+<td align="left" width="298" colspan="1" class="datap">Juliane Caroline Ratzke Rambo</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Dupla - Família CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 155,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">341</td>
+<td align="left" width="298" colspan="1" class="datai">Jagnum José Rambo</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Dupla - Família CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 155,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">356</td>
+<td align="left" width="298" colspan="1" class="datap">Isadora Kaiper</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Dupla - CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 175,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">361</td>
+<td align="left" width="298" colspan="1" class="datai">Otávio José Peroza</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Dupla - CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 175,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">362</td>
+<td align="left" width="298" colspan="1" class="datap">Tomás Muller de Carvalho</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Turma - Família CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 130,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">364</td>
+<td align="left" width="298" colspan="1" class="datai">Robson de Carvalho </td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual - Família CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 200,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">365</td>
+<td align="left" width="298" colspan="1" class="datap">Pablo Gustavo Paganini</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Turma - CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 155,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">366</td>
+<td align="left" width="298" colspan="1" class="datai">Vitória Marques da Silva</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual - CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 220,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">373</td>
+<td align="left" width="298" colspan="1" class="datap">Leonardo Couto Maciel </td>
+<td align="left" width="98" colspan="1" class="datap">Francês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Turma - CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 155,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">374</td>
+<td align="left" width="298" colspan="1" class="datai">Gustavo Henrique Couto Baldissera</td>
+<td align="left" width="98" colspan="1" class="datai">Francês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Turma - CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 155,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">416</td>
+<td align="left" width="298" colspan="1" class="datap">Artur Haase</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Individual - CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 220,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">418</td>
+<td align="left" width="298" colspan="1" class="datai">Stefanny Stefanes </td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual - CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 220,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">485</td>
+<td align="left" width="298" colspan="1" class="datap">Erica Beatriz Carmazio</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Individual - CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 220,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">529</td>
+<td align="left" width="298" colspan="1" class="datai">Idione Fantinel</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual - CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 220,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">565</td>
+<td align="left" width="298" colspan="1" class="datap">Cassiano Barzotto Kohlrausch</td>
+<td align="left" width="98" colspan="1" class="datap">Italiano</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Individual online - CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 200,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">644</td>
+<td align="left" width="298" colspan="1" class="datai">Maria Julia Zabloski</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Dupla - Família CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 155,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">648</td>
+<td align="left" width="298" colspan="1" class="datap">Breno Henrique Zabloski</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Dupla - Família CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 155,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">731</td>
+<td align="left" width="298" colspan="1" class="datai">Tais Aparecida Reginatto</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Turma - CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 155,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">732</td>
+<td align="left" width="298" colspan="1" class="datap">Luana Bussatto</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Turma - CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 155,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">733</td>
+<td align="left" width="298" colspan="1" class="datai">Rafael Fagundes Nicoláo</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual - CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 220,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">743</td>
+<td align="left" width="298" colspan="1" class="datap">Rafael Carlos  Rodrigues</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Individual - CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 220,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">842</td>
+<td align="left" width="298" colspan="1" class="datai">Heloísa Gabriely De Villa</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual online - CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 200,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">889</td>
+<td align="left" width="298" colspan="1" class="datap">Agahta dos Santos Motta</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Turma - CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 155,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">910</td>
+<td align="left" width="298" colspan="1" class="datai">Miguel Eidt Kirchhoff</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">ZERADO</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 0,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">958</td>
+<td align="left" width="298" colspan="1" class="datap">Rose Bernadete Bittencourt da Silva </td>
+<td align="left" width="98" colspan="1" class="datap">Francês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Individual online - CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 200,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1049</td>
+<td align="left" width="298" colspan="1" class="datai">Giovanna Amaral Dall' Oglio Moraes </td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Dupla - CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 175,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1050</td>
+<td align="left" width="298" colspan="1" class="datap">Daniele Bragagnollo Martins</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Dupla - CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 175,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1051</td>
+<td align="left" width="298" colspan="1" class="datai">Henrique Giehl Heydt </td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Dupla - SPEASY</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 190,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1053</td>
+<td align="left" width="298" colspan="1" class="datap">Gustavo do Nascimento Chiodi</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Individual online - CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 380,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1125</td>
+<td align="left" width="298" colspan="1" class="datai">Fabricio Miguel Novicki</td>
+<td align="left" width="98" colspan="1" class="datai">Francês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual online - CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 200,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1152</td>
+<td align="left" width="298" colspan="1" class="datap">Jéssica Rodrigues Bovo</td>
+<td align="left" width="98" colspan="1" class="datap">Espanhol</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Individual online - CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 200,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1170</td>
+<td align="left" width="298" colspan="1" class="datai">Matheus Ries Winck</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual - 2 Idiomas - CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 190,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1179</td>
+<td align="left" width="298" colspan="1" class="datap">Alana do Carmo Rodrigues</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Individual online - CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 200,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1219</td>
+<td align="left" width="298" colspan="1" class="datai">Érika Kelly Cardozo</td>
+<td align="left" width="98" colspan="1" class="datai">Alemão</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual online - CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 200,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">180</td>
+<td align="left" width="298" colspan="1" class="datap">Matheus Bernardo Dambrowski</td>
+<td align="left" width="98" colspan="1" class="datap">Espanhol</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Individual online - 2 idiomas familia - CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 165,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1225</td>
+<td align="left" width="298" colspan="1" class="datai">Vanessa Pereira da Silva Santaella</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual - 2 Idiomas - CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 190,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1225</td>
+<td align="left" width="298" colspan="1" class="datap">Vanessa Pereira da Silva Santaella</td>
+<td align="left" width="98" colspan="1" class="datap">Espanhol</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Individual - 2 Idiomas - CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 190,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">992</td>
+<td align="left" width="298" colspan="1" class="datai">Alvaro Paolo Diaz Rojas</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual - Família CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 200,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">922</td>
+<td align="left" width="298" colspan="1" class="datap">Eduardo Gaio Greef</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Individual - Família CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 200,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">363</td>
+<td align="left" width="298" colspan="1" class="datai">Andreas Muller de Carvalho</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Dupla - Família CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 155,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">897</td>
+<td align="left" width="298" colspan="1" class="datap">Fabiana Kerber</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Individual - Família CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 200,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1227</td>
+<td align="left" width="298" colspan="1" class="datai">Karina Oliveira da Silva</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual online - CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 200,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1272</td>
+<td align="left" width="298" colspan="1" class="datap">Hygo Breno Santos Araujo</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Individual - CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 220,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1043</td>
+<td align="left" width="298" colspan="1" class="datai">Gustavo Renato Felisbino</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual - CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 220,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">914</td>
+<td align="left" width="298" colspan="1" class="datap">Pedro Rambo</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Turma - Família CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 130,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1040</td>
+<td align="left" width="298" colspan="1" class="datai">Amanda Fantin</td>
+<td align="left" width="98" colspan="1" class="datai">Francês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual - CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 220,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">921</td>
+<td align="left" width="298" colspan="1" class="datap">Renata Gaio Greef</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Individual - Família CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 200,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">913</td>
+<td align="left" width="298" colspan="1" class="datai">Otavio Benke</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Dupla - CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 175,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">879</td>
+<td align="left" width="298" colspan="1" class="datap">Valentina Mattana Mendes</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Dupla - Família CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 155,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">882</td>
+<td align="left" width="298" colspan="1" class="datai">Lucas João Piasson</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Dupla - Família CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 155,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">991</td>
+<td align="left" width="298" colspan="1" class="datap">Miguel Gerber Rojas</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Turma - Família CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 130,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1036</td>
+<td align="left" width="298" colspan="1" class="datai">Victor Fernandes Volkart</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Dupla - Família CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 155,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1037</td>
+<td align="left" width="298" colspan="1" class="datap">Igor Fernandes Volkart</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Dupla - Família CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 155,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">898</td>
+<td align="left" width="298" colspan="1" class="datai">Isabela Casagrande</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Turma - SPEASY</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">883</td>
+<td align="left" width="298" colspan="1" class="datap">Matheus Techio</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Turma - CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 155,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1344</td>
+<td align="left" width="298" colspan="1" class="datai">Mateus Dallazem</td>
+<td align="left" width="98" colspan="1" class="datai">Francês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual - Colaborador </td>
+<td align="right" width="68" colspan="1" class="datai">R$ 150,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">180</td>
+<td align="left" width="298" colspan="1" class="datap">Matheus Bernardo Dambrowski</td>
+<td align="left" width="98" colspan="1" class="datap">Italiano</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Individual online - 2 idiomas familia - CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 165,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1012</td>
+<td align="left" width="298" colspan="1" class="datai">Rodrigo Granzotto Devila</td>
+<td align="left" width="98" colspan="1" class="datai">Alemão</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual online - SPEASY</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 220,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1423</td>
+<td align="left" width="298" colspan="1" class="datap">Isadora Martinelli Leite</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Turma - CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 155,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1432</td>
+<td align="left" width="298" colspan="1" class="datai">Pedro Henrique de Mello Conte</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Dupla </td>
+<td align="right" width="68" colspan="1" class="datai">R$ 160,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1454</td>
+<td align="left" width="298" colspan="1" class="datap">Maria Júlia Pedroso Rossi</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Individual online - CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 200,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1469</td>
+<td align="left" width="298" colspan="1" class="datai">Isabela Brandt Maciel</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual - CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 220,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1492</td>
+<td align="left" width="298" colspan="1" class="datap">Mariana Patrícia Primon</td>
+<td align="left" width="98" colspan="1" class="datap">Francês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Individual online - CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 200,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1508</td>
+<td align="left" width="298" colspan="1" class="datai">Bruno Simões da Silva</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Turma - CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 155,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">938</td>
+<td align="left" width="298" colspan="1" class="datap">Mirian Piasson</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Dupla - Família CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 155,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1428</td>
+<td align="left" width="298" colspan="1" class="datai">Amanda Bardella Freitas</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual - CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 220,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">971</td>
+<td align="left" width="298" colspan="1" class="datap">Henrique José Pazini</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Individual - CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 220,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">54</td>
+<td align="left" width="298" colspan="1" class="datai">Milko Ricardo Gouvêa </td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Dupla - 2 idiomas CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 140,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1535</td>
+<td align="left" width="298" colspan="1" class="datap">Luiza Gabrielle Antunes de Lara</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Turma - Família CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 130,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1537</td>
+<td align="left" width="298" colspan="1" class="datai">Jonathan Gomes Goularte</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual - CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 380,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">909</td>
+<td align="left" width="298" colspan="1" class="datap">Simone Eidt Kirchhoff</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">ZERADO</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 0,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1551</td>
+<td align="left" width="298" colspan="1" class="datai">Daniel Nunes Volkart</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual - Família CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 330,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1553</td>
+<td align="left" width="298" colspan="1" class="datap">Bruna Vieira </td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Dupla - Família CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 155,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1566</td>
+<td align="left" width="298" colspan="1" class="datai">Gisele Dian Borges</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual - Família CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 200,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1957</td>
+<td align="left" width="298" colspan="1" class="datap">Eduarda Carioletti</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Dupla - Família CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 155,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1596</td>
+<td align="left" width="298" colspan="1" class="datai">Kaue Crestani  Kraemer</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Turma - CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 155,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1629</td>
+<td align="left" width="298" colspan="1" class="datap">Larissa Maria Silveira Pereira</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Individual online - CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 200,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1633</td>
+<td align="left" width="298" colspan="1" class="datai">Juliana Menezes da Silveira</td>
+<td align="left" width="98" colspan="1" class="datai">Italiano</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual online - CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 380,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1639</td>
+<td align="left" width="298" colspan="1" class="datap">Luciane Laux</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Individual online - CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 200,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">136</td>
+<td align="left" width="298" colspan="1" class="datai">Carina de Oliveira Antunes</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Dupla - Família CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 155,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1658</td>
+<td align="left" width="298" colspan="1" class="datap">Murilo Vinicius Girardi Baron</td>
+<td align="left" width="98" colspan="1" class="datap">Alemão</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Individual - CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 220,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1660</td>
+<td align="left" width="298" colspan="1" class="datai">Yohana Maria Alves Rodrigues</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Dupla - SPEASY</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 190,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1661</td>
+<td align="left" width="298" colspan="1" class="datap">Jhennifer Naiely Vaz</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Individual - CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 220,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">832</td>
+<td align="left" width="298" colspan="1" class="datai">Dayane Maria Serafini</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Turma - Polpa - CDI </td>
+<td align="right" width="68" colspan="1" class="datai">R$ 31,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1692</td>
+<td align="left" width="298" colspan="1" class="datap">Davi Gabriel Borsoi</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Dupla - Família CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 155,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1691</td>
+<td align="left" width="298" colspan="1" class="datai">João Paulo Grando</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Dupla - Família CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 155,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1709</td>
+<td align="left" width="298" colspan="1" class="datap">Johanes Newton do Prado</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Johannes - Polpa - CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 76,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1723</td>
+<td align="left" width="298" colspan="1" class="datai">Amanda Vigolo Zonta</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Turma - Polpa - CDI </td>
+<td align="right" width="68" colspan="1" class="datai">R$ 31,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1568</td>
+<td align="left" width="298" colspan="1" class="datap">Sérgio Gomes Maciel</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Individual - CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 220,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1770</td>
+<td align="left" width="298" colspan="1" class="datai">Darlei Friebel</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual online - CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 200,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1771</td>
+<td align="left" width="298" colspan="1" class="datap">Gustavo Hintz Hahne Sell</td>
+<td align="left" width="98" colspan="1" class="datap">Italiano</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Individual online - CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 200,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1818</td>
+<td align="left" width="298" colspan="1" class="datai">Cassiane Coelho Cesca</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual - CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 220,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1834</td>
+<td align="left" width="298" colspan="1" class="datap">Alice Gregório</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Individual - CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 220,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1835</td>
+<td align="left" width="298" colspan="1" class="datai">Jéssica Waltrick Hilleshein</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Dupla - CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 175,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1836</td>
+<td align="left" width="298" colspan="1" class="datap">Daiane Tolfo Peranzoni</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Dupla - CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 175,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1844</td>
+<td align="left" width="298" colspan="1" class="datai">Luiz Augusto Zonta</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual - CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 220,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1853</td>
+<td align="left" width="298" colspan="1" class="datap">Ana Júlia Dutra</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Turma - CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 155,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1861</td>
+<td align="left" width="298" colspan="1" class="datai">Analu Buzzanelo</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual online - CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 200,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1863</td>
+<td align="left" width="298" colspan="1" class="datap">Alexandra Felipeto Calliari</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Individual online - SPEASY</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 220,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1878</td>
+<td align="left" width="298" colspan="1" class="datai">Bruno Diego Rodrigues de Lima</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Dupla - Família SPEASY</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1886</td>
+<td align="left" width="298" colspan="1" class="datap">Camille Eduarda Oliveira de Campos</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Turma - CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 155,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1902</td>
+<td align="left" width="298" colspan="1" class="datai">Ana Luiza Furlan Souza</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Turma - CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 155,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1903</td>
+<td align="left" width="298" colspan="1" class="datap">Cláudio Moreira Santos Filho</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Turma - Família CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 130,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1917</td>
+<td align="left" width="298" colspan="1" class="datai">Leticia Gabriela Cherobin Zabloski</td>
+<td align="left" width="98" colspan="1" class="datai">Italiano</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual - 2 Idiomas - Família CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 165,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1918</td>
+<td align="left" width="298" colspan="1" class="datap">Tainara Aparecida Gomes de Campos</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Turma - CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 155,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1919</td>
+<td align="left" width="298" colspan="1" class="datai">Sezenante de Jesus Pinheiro</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Turma - CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 155,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1931</td>
+<td align="left" width="298" colspan="1" class="datap">Davi de Oliveira Moreira Santos</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Dupla - Família CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 155,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1933</td>
+<td align="left" width="298" colspan="1" class="datai">Luiz Leandro dos Reis Fortaleza</td>
+<td align="left" width="98" colspan="1" class="datai">Francês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual online - CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 200,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1942</td>
+<td align="left" width="298" colspan="1" class="datap">Gabriela Borges de Oliveira</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Dupla - Familia - Speasy - 5%</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 161,50</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1943</td>
+<td align="left" width="298" colspan="1" class="datai">Maria Eduarda Borges de Oliveira</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Dupla - Familia - Speasy - 5%</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 161,50</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1945</td>
+<td align="left" width="298" colspan="1" class="datap">Lidiane Mattana</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Individual - 2 idiomas - Speasy -família -  Promocional </td>
+<td align="right" width="68" colspan="1" class="datap">R$ 180,50</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1945</td>
+<td align="left" width="298" colspan="1" class="datai">Lidiane Mattana</td>
+<td align="left" width="98" colspan="1" class="datai">Italiano</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual - 2 idiomas - Speasy -família -  Promocional </td>
+<td align="right" width="68" colspan="1" class="datai">R$ 180,50</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1944</td>
+<td align="left" width="298" colspan="1" class="datap">Laura Izabela de Matos</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Individual online - CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 200,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1170</td>
+<td align="left" width="298" colspan="1" class="datai">Matheus Ries Winck</td>
+<td align="left" width="98" colspan="1" class="datai">Francês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual - 2 Idiomas - CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 190,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1950</td>
+<td align="left" width="298" colspan="1" class="datap">Guilherme Cordova</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Individual online - CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 200,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1948</td>
+<td align="left" width="298" colspan="1" class="datai">Lucas Gabriel da Silva </td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Turma - CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 155,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1980</td>
+<td align="left" width="298" colspan="1" class="datap">Pedro Mattana Mendes</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Dupla - Família CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 155,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1952</td>
+<td align="left" width="298" colspan="1" class="datai">Arthur Saúgo Bernardes</td>
+<td align="left" width="98" colspan="1" class="datai">Francês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Turma - CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 155,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1953</td>
+<td align="left" width="298" colspan="1" class="datap">Karolina Borsatti</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Individual - CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 220,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1959</td>
+<td align="left" width="298" colspan="1" class="datai">Luiza Duarte</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Dupla - 1 Idioma - Promoção L. D.</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 166,25</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1986</td>
+<td align="left" width="298" colspan="1" class="datap">Ana Flávia da Silva Dallazem</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Dupla - Familia - Speasy - 5%</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 161,50</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1992</td>
+<td align="left" width="298" colspan="1" class="datai">Carolina Giumbelli</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Dupla - Família SPEASY</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1993</td>
+<td align="left" width="298" colspan="1" class="datap">Eduarda Flesch</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Individual - SPEASY</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 415,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1995</td>
+<td align="left" width="298" colspan="1" class="datai">Emanuelly Cherobin Zabloski</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Dupla - Familia - Speasy - 5%</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 161,50</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1594</td>
+<td align="left" width="298" colspan="1" class="datap">Leonardo Carioletti</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Dupla - Família CDI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 155,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1628</td>
+<td align="left" width="298" colspan="1" class="datai">Fernanda Ganasini</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual online - SPEASY</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 220,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2014</td>
+<td align="left" width="298" colspan="1" class="datap">Juliana Cervelin</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Turma - Família SPEASY</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 140,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2013</td>
+<td align="left" width="298" colspan="1" class="datai">Augusto Seganfredo</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Turma - Família SPEASY</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 140,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2012</td>
+<td align="left" width="298" colspan="1" class="datap">Luiz Paulo Seganfredo</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Turma - Família SPEASY</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 140,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2033</td>
+<td align="left" width="298" colspan="1" class="datai">Renata Calgaroto</td>
+<td align="left" width="98" colspan="1" class="datai">Espanhol</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual online - SPEASY</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 220,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2020</td>
+<td align="left" width="298" colspan="1" class="datap">Larissa Vieira Mazzucco</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Individual online - SPEASY</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 220,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2017</td>
+<td align="left" width="298" colspan="1" class="datai">Juliana Fabricio Zanotto</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Turma - SPEASY</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2051</td>
+<td align="left" width="298" colspan="1" class="datap">Mirela Marcon </td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Dupla - SPEASY</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 190,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2038</td>
+<td align="left" width="298" colspan="1" class="datai">Helena Becker Kemp</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Dupla - Speasy - Promoção 20%</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 152,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2044</td>
+<td align="left" width="298" colspan="1" class="datap">Thays Emanuelly Ribeiro</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Dupla - Speasy - Promoção 20%</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 152,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2056</td>
+<td align="left" width="298" colspan="1" class="datai">Mônica Ferreira</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual - 1 Idioma - Speasy promoção 60%</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 192,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2050</td>
+<td align="left" width="298" colspan="1" class="datap">Aline de Fatima Oliveira</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Dupla - Speasy - Promoção 20%</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 152,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2049</td>
+<td align="left" width="298" colspan="1" class="datai">Valentina de Oliveira Santos</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Dupla - Speasy - Promoção 20%</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 152,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2051</td>
+<td align="left" width="298" colspan="1" class="datap">Mirela Marcon </td>
+<td align="left" width="98" colspan="1" class="datap">Francês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Individual - 2 idiomas - Speasy  -  M.M</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 142,55</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2063</td>
+<td align="left" width="298" colspan="1" class="datai">Micheli Lima</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Turma - SPEASY</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2082</td>
+<td align="left" width="298" colspan="1" class="datap">Arthur Rambo</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Turma - Família SPEASY</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 140,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2084</td>
+<td align="left" width="298" colspan="1" class="datai">Matheus Felipe Regis</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual - SPEASY</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2096</td>
+<td align="left" width="298" colspan="1" class="datap">Ligia Maria Spautz</td>
+<td align="left" width="98" colspan="1" class="datap">Francês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Individual online - SPEASY</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 220,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2109</td>
+<td align="left" width="298" colspan="1" class="datai">Renan Claudio dos Santos</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Turma - Speasy - Promoção - VOLEI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 116,66</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2108</td>
+<td align="left" width="298" colspan="1" class="datap">Rafael Schweitzer</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Turma - Speasy - Promoção - VOLEI</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 116,66</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2107</td>
+<td align="left" width="298" colspan="1" class="datai">Jean de Moraes</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Turma - Speasy - Promoção - VOLEI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 116,66</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2123</td>
+<td align="left" width="298" colspan="1" class="datap">Thiago Techio</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Turma - Família SPEASY</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 140,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2122</td>
+<td align="left" width="298" colspan="1" class="datai">Maria Luiza de Oliveira Eberle</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Turma - Família SPEASY</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 140,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2122</td>
+<td align="left" width="298" colspan="1" class="datap">Maria Luiza de Oliveira Eberle</td>
+<td align="left" width="98" colspan="1" class="datap">Italiano</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Dupla - Família SPEASY</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2132</td>
+<td align="left" width="298" colspan="1" class="datai">Kamile Marques</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">ZERADO</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 0,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2132</td>
+<td align="left" width="298" colspan="1" class="datap">Kamile Marques</td>
+<td align="left" width="98" colspan="1" class="datap">Italiano</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Dupla - SPEASY</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 190,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2115</td>
+<td align="left" width="298" colspan="1" class="datai">Fabieli Boff</td>
+<td align="left" width="98" colspan="1" class="datai">Italiano</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual - Família SPEASY</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 380,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2129</td>
+<td align="left" width="298" colspan="1" class="datap">Jorge Eduardo Tibes Marcelino</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Turma - SPEASY</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2156</td>
+<td align="left" width="298" colspan="1" class="datai">Juliana Borges</td>
+<td align="left" width="98" colspan="1" class="datai">Alemão</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual online - SPEASY</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 220,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2163</td>
+<td align="left" width="298" colspan="1" class="datap">Kauan Oliveira Schwenter</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Turma - SPEASY</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2157</td>
+<td align="left" width="298" colspan="1" class="datai">Bruna Biasiolo</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual - SPEASY</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2165</td>
+<td align="left" width="298" colspan="1" class="datap">Erick Gabriel Terres Borga</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Individual - SPEASY</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2173</td>
+<td align="left" width="298" colspan="1" class="datai">Guilherme Otávio Gonçalves Prates</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Dupla - SPEASY</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 190,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2179</td>
+<td align="left" width="298" colspan="1" class="datap">Dalmo Paim de Oliveira</td>
+<td align="left" width="98" colspan="1" class="datap">Alemão</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Individual - Colaborador </td>
+<td align="right" width="68" colspan="1" class="datap">R$ 150,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2180</td>
+<td align="left" width="298" colspan="1" class="datai">Giovana Maria Marcondes Gonçalves</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Turma - SPEASY</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2215</td>
+<td align="left" width="298" colspan="1" class="datap">Goreti Aparecida Oliveira Xavier</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Individual - SPEASY</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2229</td>
+<td align="left" width="298" colspan="1" class="datai">Tiago Augusto Almeida Miglioli</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Turma - SPEASY</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2236</td>
+<td align="left" width="298" colspan="1" class="datap">Tarcísio Olegário de Castro Firmes da Silveira</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Individual - Família SPEASY</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 220,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2252</td>
+<td align="left" width="298" colspan="1" class="datai">Leonardo Matheus Macedo</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual - SPEASY</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2262</td>
+<td align="left" width="298" colspan="1" class="datap">Karen Hany da Conceição</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Individual - Colaborador </td>
+<td align="right" width="68" colspan="1" class="datap">R$ 150,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2274</td>
+<td align="left" width="298" colspan="1" class="datai">Yasmin Lazaretti Sousa dos Santos</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Dupla - SPEASY</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 190,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2279</td>
+<td align="left" width="298" colspan="1" class="datap">Maria Ingrid Riegert de Almeida</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Dupla - SPEASY</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 190,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2282</td>
+<td align="left" width="298" colspan="1" class="datai">Anthonela Kristhine Moraski</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Turma - SPEASY</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2291</td>
+<td align="left" width="298" colspan="1" class="datap">Maria Rafaela Brugnara</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Individual online - SPEASY</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 220,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2277</td>
+<td align="left" width="298" colspan="1" class="datai">Igor Albuquerque Rezzadori</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Turma - SPEASY</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2281</td>
+<td align="left" width="298" colspan="1" class="datap">Enzo Gabriel da Luz</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">Turma - SPEASY</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2306</td>
+<td align="left" width="298" colspan="1" class="datai">Renan Clivato</td>
+<td align="left" width="98" colspan="1" class="datai">Italiano</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Individual - SPEASY</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="center" width="58" colspan="1" class="breakTotal"></td>
+<td align="center" width="298" colspan="1" class="breakTotal"></td>
+<td align="center" width="98" colspan="1" class="breakTotal"></td>
+<td align="center" width="68" colspan="1" class="breakTotal"></td>
+<td align="center" width="148" colspan="1" class="breakTotal"></td>
+<td align="right" width="68" colspan="1" class="breakTotal">R$ 32.928,78</td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+</tr>
+<tr>
+<td align="center" width="58" colspan="1" class="total"></td>
+<td align="center" width="298" colspan="1" class="total"></td>
+<td align="center" width="98" colspan="1" class="total"></td>
+<td align="center" width="68" colspan="1" class="total"></td>
+<td align="center" width="148" colspan="1" class="total"></td>
+<td align="right" width="68" colspan="1" class="total">R$ 32.928,78</td>
+<td align="center" width="198" colspan="1" class="total"></td>
+</tr>
+</table>
+</html>

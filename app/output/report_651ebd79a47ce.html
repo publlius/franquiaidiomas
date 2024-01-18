@@ -1,0 +1,694 @@
+<html>
+<style>
+    .title
+    {
+        font-family: Helvetica;
+        color: #000000;
+        background-color: #dbdbdb;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-weight: bold;
+    }
+    .datap
+    {
+        font-family: Arial;
+        color: #333333;
+        background-color: #f0f0f0;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+    }
+    .datai
+    {
+        font-family: Arial;
+        color: #333333;
+        background-color: #ffffff;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+    }
+    .header
+    {
+        font-family: Helvetica;
+        color: #5a5a5a;
+        background-color: #6B6B6B;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 16pt;
+        font-weight: bold;
+    }
+    .footer
+    {
+        font-family: Helvetica;
+        color: #5a5a5a;
+        background-color: #A3A3A3;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-weight: bold;
+    }
+    .break
+    {
+        font-family: Helvetica;
+        color: #ffffff;
+        background-color: #9a9a9a;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-weight: bold;
+    }
+    .total
+    {
+        font-family: Helvetica;
+        color: #000000;
+        background-color: #c7c7c7;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-style: italic;
+    }
+    .breakTotal
+    {
+        font-family: Helvetica;
+        color: #000000;
+        background-color: #c6c8d0;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-style: italic;
+    }
+</style>
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse">
+<tr>
+<td align="left" width="78" colspan="1" class="title">Data</td>
+<td align="left" width="38" colspan="1" class="title">Tipo</td>
+<td align="left" width="348" colspan="1" class="title">Turma/Aluno</td>
+<td align="left" width="148" colspan="1" class="title">Unidade</td>
+<td align="left" width="198" colspan="1" class="title">Professor</td>
+<td align="right" width="98" colspan="1" class="title">Valor</td>
+</tr>
+<tr><td align="left" width="918" colspan="6" class="break">Vitor Schefemacher de Oliveira</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">04/09/2023</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">TURMA 26</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">04/09/2023</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 05</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">04/09/2023</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 04</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">05/09/2023</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 05</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">05/09/2023</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 37</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">05/09/2023</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">LUIZ ALBERTO DALLAGNOL FILHO </td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">06/09/2023</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 49</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">06/09/2023</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 53</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">08/09/2023</td>
+<td align="left" width="38" colspan="1" class="datai">R</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 42</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">09/09/2023</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 39</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">09/09/2023</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 29</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">11/09/2023</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">MATEUS LAVENDOSKI BALBINOTTI</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">11/09/2023</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">KELITA CARLIM DA SILVA</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">11/09/2023</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">LIANDRA CAROLINE CORDEIRO</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">11/09/2023</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 61</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">12/09/2023</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">JAQUELINE LOURENÇO PIRES</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">12/09/2023</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 03</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">12/09/2023</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">LUIZ ALBERTO DALLAGNOL FILHO </td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">12/09/2023</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">CRISTIANE ETELVINA COMERLATO KRUGUER</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">13/09/2023</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">AKYLLA VIRGINIA DE QUADRO KUNZE</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">13/09/2023</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 43</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">13/09/2023</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">WAGNER TOREZAN</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">13/09/2023</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 58</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">14/09/2023</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap"> GUILHERME AUGUSTO BALBINOT </td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">14/09/2023</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">LAURO BENJAMIN FRANCO ROSA</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">14/09/2023</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">THIAGO HENRIQUE DE CAMPOS</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">14/09/2023</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">NÁTHALY AGNY MÜLLER</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">14/09/2023</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">PALOMA POLO PAGANHIN</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">15/09/2023</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">AMANDA APARECIDA SCHIMIDT</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">15/09/2023</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">MATEUS LAVENDOSKI BALBINOTTI</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">15/09/2023</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">TURMA 09</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">16/09/2023</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 55</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">16/09/2023</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 60</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">16/09/2023</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">LAISA ZANATTA</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">16/09/2023</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 41</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">16/09/2023</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">LARISSA JASINSKI </td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">18/09/2023</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">TURMA 01</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">18/09/2023</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">ITHAN RAFAEL RODRIGUES</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">18/09/2023</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 31</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">18/09/2023</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">MARIA EDUARDA MAGUEROSKI MAIA</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">19/09/2023</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">ALLISON ANDRE ESCHER</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">19/09/2023</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">JAQUELINE LOURENÇO PIRES</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">19/09/2023</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">LARA VITÓRIA FERREIRA DE ANDRADE </td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">20/09/2023</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 24</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">20/09/2023</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">ALEXANDRE JUNIOR WITTMAN</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">20/09/2023</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">NÁTHALY AGNY MÜLLER</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">20/09/2023</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">SAMUEL RUI</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">20/09/2023</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">THAYSE CRISTINA GIOPPO</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">21/09/2023</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">LÍVIA BEATRIZ FRANCO ROSA </td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">21/09/2023</td>
+<td align="left" width="38" colspan="1" class="datap">R</td>
+<td align="left" width="348" colspan="1" class="datap">LAISA ZANATTA</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">21/09/2023</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">THIAGO HENRIQUE DE CAMPOS</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">22/09/2023</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">GUILHERME HENRIQUE HUÇULAK</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">22/09/2023</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">MARIA EDUARDA LENZ</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">22/09/2023</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">EXPERIMENTAL</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 37,50</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">23/09/2023</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">LARISSA JASINSKI </td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">23/09/2023</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 22</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">23/09/2023</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 56</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">25/09/2023</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 01</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">25/09/2023</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">LIANDRA CAROLINE CORDEIRO</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">25/09/2023</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 37</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 37,50</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">26/09/2023</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">RONALDO NERY TRINDADE</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">26/09/2023</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 37</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">26/09/2023</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">EDERSON ANDRÉ FAORO</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">27/09/2023</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 63</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 37,50</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">27/09/2023</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 28</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">28/09/2023</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 40</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 37,50</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">28/09/2023</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai"> GUILHERME AUGUSTO BALBINOT </td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">28/09/2023</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">GIOVANA KARINE SCOLARO</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">29/09/2023</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">KARINE SOARES DE SOUZA</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">29/09/2023</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">BARBARA THIBES BALVEDI BALBINOTTI</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">30/09/2023</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 39</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">VITOR SCHEFEMACHER DE OLIVEIRA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="center" width="78" colspan="1" class="breakTotal"></td>
+<td align="center" width="38" colspan="1" class="breakTotal"></td>
+<td align="center" width="348" colspan="1" class="breakTotal"></td>
+<td align="center" width="148" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="98" colspan="1" class="breakTotal">R$ 1.825,00</td>
+</tr>
+<tr>
+<td align="center" width="78" colspan="1" class="total"></td>
+<td align="center" width="38" colspan="1" class="total"></td>
+<td align="center" width="348" colspan="1" class="total"></td>
+<td align="center" width="148" colspan="1" class="total"></td>
+<td align="center" width="198" colspan="1" class="total"></td>
+<td align="right" width="98" colspan="1" class="total">R$ 1.825,00</td>
+</tr>
+</table>
+</html>

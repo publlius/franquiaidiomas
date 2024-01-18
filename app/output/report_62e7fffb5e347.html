@@ -1,0 +1,718 @@
+<html>
+<style>
+    .title
+    {
+        font-family: Helvetica;
+        color: #000000;
+        background-color: #dbdbdb;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-weight: bold;
+    }
+    .datap
+    {
+        font-family: Arial;
+        color: #333333;
+        background-color: #f0f0f0;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+    }
+    .datai
+    {
+        font-family: Arial;
+        color: #333333;
+        background-color: #ffffff;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+    }
+    .header
+    {
+        font-family: Helvetica;
+        color: #5a5a5a;
+        background-color: #6B6B6B;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 16pt;
+        font-weight: bold;
+    }
+    .footer
+    {
+        font-family: Helvetica;
+        color: #5a5a5a;
+        background-color: #A3A3A3;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-weight: bold;
+    }
+    .break
+    {
+        font-family: Helvetica;
+        color: #ffffff;
+        background-color: #9a9a9a;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-weight: bold;
+    }
+    .total
+    {
+        font-family: Helvetica;
+        color: #000000;
+        background-color: #c7c7c7;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-style: italic;
+    }
+    .breakTotal
+    {
+        font-family: Helvetica;
+        color: #000000;
+        background-color: #c6c8d0;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-style: italic;
+    }
+</style>
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse">
+<tr>
+<td align="left" width="78" colspan="1" class="title">Data</td>
+<td align="left" width="38" colspan="1" class="title">Tipo</td>
+<td align="left" width="348" colspan="1" class="title">Turma/Aluno</td>
+<td align="left" width="148" colspan="1" class="title">Unidade</td>
+<td align="left" width="198" colspan="1" class="title">Professor</td>
+<td align="right" width="98" colspan="1" class="title">Valor</td>
+</tr>
+<tr><td align="left" width="918" colspan="6" class="break">Francieli Belotto</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">01/07/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DAVID MACCARI</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">01/07/2022</td>
+<td align="left" width="38" colspan="1" class="datap">R</td>
+<td align="left" width="348" colspan="1" class="datap">VIVIANE BASILIO CAUM </td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">01/07/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">LARISSA BALDISSERA </td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">01/07/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">RAFAEL FENILI</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">01/07/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 79</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">04/07/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">CLARICE SALETE BASEGGIO SIMONETTO </td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">04/07/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">MEGHAN BRESSAN DEL AGUILA (INDIVIDUAL)</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">05/07/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 36</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">05/07/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 07</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">05/07/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 77</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">05/07/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 21</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">05/07/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 28</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">06/07/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">ANA LUIZA MENDES</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">06/07/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 12</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">06/07/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">TURMA 49</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">06/07/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">SUYANE TESKE PIRES</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">07/07/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">VINICIUS UGOLINI RIGO</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">07/07/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 47</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">07/07/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">TURMA 23</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">07/07/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 31</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">08/07/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 25</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">08/07/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 79</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">11/07/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">GABRIELA BRUNETTA CRIPPA</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">11/07/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 41</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">12/07/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">GABRIELA CHIOT DALSASSO</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">12/07/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 36</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">12/07/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 28</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">13/07/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 43</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">13/07/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 35</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">13/07/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 77</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">13/07/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">LETICIA TWARDOWSKI DA SILVA </td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">13/07/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DANIEL ZONTA REGINATO</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">14/07/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">TURMA 23</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">14/07/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 08</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">14/07/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">TURMA 31</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">14/07/2022</td>
+<td align="left" width="38" colspan="1" class="datap">R</td>
+<td align="left" width="348" colspan="1" class="datap">ALESSANDRA TONELLO</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">14/07/2022</td>
+<td align="left" width="38" colspan="1" class="datai">R</td>
+<td align="left" width="348" colspan="1" class="datai">FRANCIANE BISOL</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">15/07/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 79</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">18/07/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">BARBARA PASTORE VIECELLI</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">18/07/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 32</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">19/07/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">TURMA 36</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">19/07/2022</td>
+<td align="left" width="38" colspan="1" class="datap">R</td>
+<td align="left" width="348" colspan="1" class="datap">JORDANA PICCOLI</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">19/07/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 28</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">19/07/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 77</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">19/07/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">ANA PAULA MARCON KIRSCHNICK</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">19/07/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">GABRIELA CHIOT DALSASSO</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">20/07/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">SILVANA MICHELETO COSER</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">20/07/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">CAMILY RAMOS RAMPON</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">20/07/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">SUELLEN TRINDADE</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">20/07/2022</td>
+<td align="left" width="38" colspan="1" class="datap">R</td>
+<td align="left" width="348" colspan="1" class="datap">LETICIA TWARDOWSKI DA SILVA </td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">20/07/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 81</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">21/07/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 47</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">21/07/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">LEIDIANE SAMARA FERREIRA DE OLIVEIRA BUENO</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">21/07/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">JAQUELINE LUVIZON</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">21/07/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">KAREN GISELE SERRA CORREA DOS SANTOS</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">22/07/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 79</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">22/07/2022</td>
+<td align="left" width="38" colspan="1" class="datai">R</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 79</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">25/07/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 16</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">25/07/2022</td>
+<td align="left" width="38" colspan="1" class="datai">R</td>
+<td align="left" width="348" colspan="1" class="datai">ANA LUIZA PASTORE DAMBROS</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">26/07/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 36</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">26/07/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 86</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">26/07/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 77</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">26/07/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">SAMARA RAMPON BOLZAN</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">27/07/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">PEDRO BALDISSERA</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">27/07/2022</td>
+<td align="left" width="38" colspan="1" class="datai">R</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 50</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">27/07/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">GUSTAVO RIGO</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">28/07/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">TURMA 23</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">28/07/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 31</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">28/07/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">MATHEUS CASSIO ORSO</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">28/07/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 16</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">29/07/2022</td>
+<td align="left" width="38" colspan="1" class="datai">R</td>
+<td align="left" width="348" colspan="1" class="datai">THIAGO MIGUEL GIBBINI</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">29/07/2022</td>
+<td align="left" width="38" colspan="1" class="datap">R</td>
+<td align="left" width="348" colspan="1" class="datap">LAURA CORAL SCHROEDER</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">29/07/2022</td>
+<td align="left" width="38" colspan="1" class="datai">R</td>
+<td align="left" width="348" colspan="1" class="datai">FLAVIA WEISHEIMER</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">29/07/2022</td>
+<td align="left" width="38" colspan="1" class="datap">R</td>
+<td align="left" width="348" colspan="1" class="datap">LARISSA BALDISSERA </td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="center" width="78" colspan="1" class="breakTotal"></td>
+<td align="center" width="38" colspan="1" class="breakTotal"></td>
+<td align="center" width="348" colspan="1" class="breakTotal"></td>
+<td align="center" width="148" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="98" colspan="1" class="breakTotal">R$ 2.220,00</td>
+</tr>
+<tr>
+<td align="center" width="78" colspan="1" class="total"></td>
+<td align="center" width="38" colspan="1" class="total"></td>
+<td align="center" width="348" colspan="1" class="total"></td>
+<td align="center" width="148" colspan="1" class="total"></td>
+<td align="center" width="198" colspan="1" class="total"></td>
+<td align="right" width="98" colspan="1" class="total">R$ 2.220,00</td>
+</tr>
+</table>
+</html>

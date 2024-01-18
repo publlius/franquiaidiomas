@@ -1,0 +1,798 @@
+<html>
+<style>
+    .title
+    {
+        font-family: Helvetica;
+        color: #000000;
+        background-color: #dbdbdb;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-weight: bold;
+    }
+    .datap
+    {
+        font-family: Arial;
+        color: #333333;
+        background-color: #f0f0f0;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+    }
+    .datai
+    {
+        font-family: Arial;
+        color: #333333;
+        background-color: #ffffff;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+    }
+    .header
+    {
+        font-family: Helvetica;
+        color: #5a5a5a;
+        background-color: #6B6B6B;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 16pt;
+        font-weight: bold;
+    }
+    .footer
+    {
+        font-family: Helvetica;
+        color: #5a5a5a;
+        background-color: #A3A3A3;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-weight: bold;
+    }
+    .break
+    {
+        font-family: Helvetica;
+        color: #ffffff;
+        background-color: #9a9a9a;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-weight: bold;
+    }
+    .total
+    {
+        font-family: Helvetica;
+        color: #000000;
+        background-color: #c7c7c7;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-style: italic;
+    }
+    .breakTotal
+    {
+        font-family: Helvetica;
+        color: #000000;
+        background-color: #c6c8d0;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-style: italic;
+    }
+</style>
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse">
+<tr>
+<td align="left" width="198" colspan="1" class="title">Id</td>
+<td align="left" width="198" colspan="1" class="title">Unidade</td>
+<td align="left" width="298" colspan="1" class="title">Aluno</td>
+<td align="left" width="198" colspan="1" class="title">Plano</td>
+<td align="right" width="198" colspan="1" class="title">R$ Plano</td>
+<td align="right" width="198" colspan="1" class="title">R$ Contrato</td>
+<td align="center" width="198" colspan="1" class="title">Parcela</td>
+<td align="center" width="198" colspan="1" class="title">Vence em</td>
+<td align="center" width="198" colspan="1" class="title">Recebido em</td>
+<td align="center" width="198" colspan="1" class="title">Forma</td>
+<td align="right" width="198" colspan="1" class="title">R$ Recebido</td>
+</tr>
+<tr><td align="left" width="2298" colspan="11" class="break">379 - César Antunes Maciel | Inglês</td>
+</tr>
+<tr>
+<td align="left" width="198" colspan="1" class="datai">379</td>
+<td align="left" width="198" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="298" colspan="1" class="datai">CÉSAR ANTUNES MACIEL</td>
+<td align="left" width="198" colspan="1" class="datai">CORRETO - TURMA</td>
+<td align="right" width="198" colspan="1" class="datai">R$ 170,00</td>
+<td align="right" width="198" colspan="1" class="datai">R$ 0,00</td>
+<td align="center" width="198" colspan="1" class="datai">1</td>
+<td align="center" width="198" colspan="1" class="datai">10/09/2022</td>
+<td align="center" width="198" colspan="1" class="datai">03/09/2022</td>
+<td align="center" width="198" colspan="1" class="datai">BOLETO</td>
+<td align="right" width="198" colspan="1" class="datai">R$ 0,00</td>
+</tr>
+<tr>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="298" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 170,00</td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 0,00</td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 0,00</td>
+</tr>
+<tr><td align="left" width="2298" colspan="11" class="break">521 - Bianca Moresco Orso | Inglês</td>
+</tr>
+<tr>
+<td align="left" width="198" colspan="1" class="datap">521</td>
+<td align="left" width="198" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="298" colspan="1" class="datap">BIANCA MORESCO ORSO</td>
+<td align="left" width="198" colspan="1" class="datap">CORRETO - TURMA</td>
+<td align="right" width="198" colspan="1" class="datap">R$ 170,00</td>
+<td align="right" width="198" colspan="1" class="datap">R$ 155,00</td>
+<td align="center" width="198" colspan="1" class="datap">9</td>
+<td align="center" width="198" colspan="1" class="datap">10/09/2022</td>
+<td align="center" width="198" colspan="1" class="datap">02/09/2022</td>
+<td align="center" width="198" colspan="1" class="datap">BOLETO</td>
+<td align="right" width="198" colspan="1" class="datap">R$ 155,00</td>
+</tr>
+<tr>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="298" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 170,00</td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 155,00</td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 155,00</td>
+</tr>
+<tr><td align="left" width="2298" colspan="11" class="break">1152 - Gustavo de Mattos Calliari | Inglês</td>
+</tr>
+<tr>
+<td align="left" width="198" colspan="1" class="datai">1152</td>
+<td align="left" width="198" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="298" colspan="1" class="datai">GUSTAVO DE MATTOS CALLIARI</td>
+<td align="left" width="198" colspan="1" class="datai">CORRETO - TURMA</td>
+<td align="right" width="198" colspan="1" class="datai">R$ 170,00</td>
+<td align="right" width="198" colspan="1" class="datai">R$ 175,00</td>
+<td align="center" width="198" colspan="1" class="datai">9</td>
+<td align="center" width="198" colspan="1" class="datai">10/09/2022</td>
+<td align="center" width="198" colspan="1" class="datai">01/09/2022</td>
+<td align="center" width="198" colspan="1" class="datai">BOLETO</td>
+<td align="right" width="198" colspan="1" class="datai">R$ 175,00</td>
+</tr>
+<tr>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="298" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 170,00</td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 175,00</td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 175,00</td>
+</tr>
+<tr><td align="left" width="2298" colspan="11" class="break">1263 - Crislaine de Camargo  | Inglês</td>
+</tr>
+<tr>
+<td align="left" width="198" colspan="1" class="datap">1263</td>
+<td align="left" width="198" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="298" colspan="1" class="datap">CRISLAINE DE CAMARGO </td>
+<td align="left" width="198" colspan="1" class="datap">CORRETO - DUPLA FAMÍLIA</td>
+<td align="right" width="198" colspan="1" class="datap">R$ 170,00</td>
+<td align="right" width="198" colspan="1" class="datap">R$ 0,00</td>
+<td align="center" width="198" colspan="1" class="datap">1</td>
+<td align="center" width="198" colspan="1" class="datap">10/09/2022</td>
+<td align="center" width="198" colspan="1" class="datap">10/09/2022</td>
+<td align="center" width="198" colspan="1" class="datap">BOLETO</td>
+<td align="right" width="198" colspan="1" class="datap">R$ 0,00</td>
+</tr>
+<tr>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="298" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 170,00</td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 0,00</td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 0,00</td>
+</tr>
+<tr><td align="left" width="2298" colspan="11" class="break">1752 - Camily Ramos Rampon | Inglês</td>
+</tr>
+<tr>
+<td align="left" width="198" colspan="1" class="datai">1752</td>
+<td align="left" width="198" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="298" colspan="1" class="datai">CAMILY RAMOS RAMPON</td>
+<td align="left" width="198" colspan="1" class="datai">CORRETO - INDIVIDUAL</td>
+<td align="right" width="198" colspan="1" class="datai">R$ 240,00</td>
+<td align="right" width="198" colspan="1" class="datai">R$ 220,00</td>
+<td align="center" width="198" colspan="1" class="datai">9</td>
+<td align="center" width="198" colspan="1" class="datai">10/09/2022</td>
+<td align="center" width="198" colspan="1" class="datai">01/09/2022</td>
+<td align="center" width="198" colspan="1" class="datai">BOLETO</td>
+<td align="right" width="198" colspan="1" class="datai">R$ 220,00</td>
+</tr>
+<tr>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="298" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 240,00</td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 220,00</td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 220,00</td>
+</tr>
+<tr><td align="left" width="2298" colspan="11" class="break">1850 - Diogo Ugolini Rigo | Inglês</td>
+</tr>
+<tr>
+<td align="left" width="198" colspan="1" class="datap">1850</td>
+<td align="left" width="198" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="298" colspan="1" class="datap">DIOGO UGOLINI RIGO</td>
+<td align="left" width="198" colspan="1" class="datap">CORRETO - INDIVIDUAL FAMÍLIA</td>
+<td align="right" width="198" colspan="1" class="datap">R$ 220,00</td>
+<td align="right" width="198" colspan="1" class="datap">R$ 200,00</td>
+<td align="center" width="198" colspan="1" class="datap">3</td>
+<td align="center" width="198" colspan="1" class="datap">10/09/2022</td>
+<td align="center" width="198" colspan="1" class="datap">02/09/2022</td>
+<td align="center" width="198" colspan="1" class="datap">BOLETO</td>
+<td align="right" width="198" colspan="1" class="datap">R$ 200,00</td>
+</tr>
+<tr>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="298" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 220,00</td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 200,00</td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 200,00</td>
+</tr>
+<tr><td align="left" width="2298" colspan="11" class="break">2137 - Angela Lazzari da Silveira | Inglês</td>
+</tr>
+<tr>
+<td align="left" width="198" colspan="1" class="datai">2137</td>
+<td align="left" width="198" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="298" colspan="1" class="datai">ANGELA LAZZARI DA SILVEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">CORRETO - DUPLA</td>
+<td align="right" width="198" colspan="1" class="datai">R$ 190,00</td>
+<td align="right" width="198" colspan="1" class="datai">R$ 170,00</td>
+<td align="center" width="198" colspan="1" class="datai">9</td>
+<td align="center" width="198" colspan="1" class="datai">10/09/2022</td>
+<td align="center" width="198" colspan="1" class="datai">02/09/2022</td>
+<td align="center" width="198" colspan="1" class="datai">BOLETO</td>
+<td align="right" width="198" colspan="1" class="datai">R$ 170,00</td>
+</tr>
+<tr>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="298" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 190,00</td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 170,00</td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 170,00</td>
+</tr>
+<tr><td align="left" width="2298" colspan="11" class="break">2302 - Kescy de Paula Dias | Inglês</td>
+</tr>
+<tr>
+<td align="left" width="198" colspan="1" class="datap">2302</td>
+<td align="left" width="198" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="298" colspan="1" class="datap">KESCY DE PAULA DIAS</td>
+<td align="left" width="198" colspan="1" class="datap">CORRETO - TURMA</td>
+<td align="right" width="198" colspan="1" class="datap">R$ 170,00</td>
+<td align="right" width="198" colspan="1" class="datap">R$ 170,00</td>
+<td align="center" width="198" colspan="1" class="datap">6</td>
+<td align="center" width="198" colspan="1" class="datap">15/09/2022</td>
+<td align="center" width="198" colspan="1" class="datap">01/09/2022</td>
+<td align="center" width="198" colspan="1" class="datap">BOLETO</td>
+<td align="right" width="198" colspan="1" class="datap">R$ 170,00</td>
+</tr>
+<tr>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="298" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 170,00</td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 170,00</td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 170,00</td>
+</tr>
+<tr><td align="left" width="2298" colspan="11" class="break">2366 - Kevin Antonio Silveira  | Inglês</td>
+</tr>
+<tr>
+<td align="left" width="198" colspan="1" class="datai">2366</td>
+<td align="left" width="198" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="298" colspan="1" class="datai">KEVIN ANTONIO SILVEIRA </td>
+<td align="left" width="198" colspan="1" class="datai">CORRETO - DUPLA</td>
+<td align="right" width="198" colspan="1" class="datai">R$ 190,00</td>
+<td align="right" width="198" colspan="1" class="datai">R$ 0,00</td>
+<td align="center" width="198" colspan="1" class="datai">10</td>
+<td align="center" width="198" colspan="1" class="datai">10/09/2022</td>
+<td align="center" width="198" colspan="1" class="datai">10/09/2022</td>
+<td align="center" width="198" colspan="1" class="datai">BOLETO</td>
+<td align="right" width="198" colspan="1" class="datai">R$ 0,00</td>
+</tr>
+<tr>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="298" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 190,00</td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 0,00</td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 0,00</td>
+</tr>
+<tr><td align="left" width="2298" colspan="11" class="break">2465 - Laura Danielli | Italiano</td>
+</tr>
+<tr>
+<td align="left" width="198" colspan="1" class="datap">2465</td>
+<td align="left" width="198" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="298" colspan="1" class="datap">LAURA DANIELLI</td>
+<td align="left" width="198" colspan="1" class="datap">CORRETO - INDIVIDUAL</td>
+<td align="right" width="198" colspan="1" class="datap">R$ 415,00</td>
+<td align="right" width="198" colspan="1" class="datap">R$ 380,00</td>
+<td align="center" width="198" colspan="1" class="datap">3</td>
+<td align="center" width="198" colspan="1" class="datap">10/09/2022</td>
+<td align="center" width="198" colspan="1" class="datap">05/09/2022</td>
+<td align="center" width="198" colspan="1" class="datap">PIX</td>
+<td align="right" width="198" colspan="1" class="datap">R$ 380,00</td>
+</tr>
+<tr>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="298" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 415,00</td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 380,00</td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 380,00</td>
+</tr>
+<tr><td align="left" width="2298" colspan="11" class="break">3129 - Fernanda Cofferi | Inglês</td>
+</tr>
+<tr>
+<td align="left" width="198" colspan="1" class="datai">3129</td>
+<td align="left" width="198" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="298" colspan="1" class="datai">FERNANDA COFFERI</td>
+<td align="left" width="198" colspan="1" class="datai">CORRETO - INDIVIDUAL</td>
+<td align="right" width="198" colspan="1" class="datai">R$ 240,00</td>
+<td align="right" width="198" colspan="1" class="datai">R$ 172,00</td>
+<td align="center" width="198" colspan="1" class="datai">9</td>
+<td align="center" width="198" colspan="1" class="datai">10/09/2022</td>
+<td align="center" width="198" colspan="1" class="datai">02/09/2022</td>
+<td align="center" width="198" colspan="1" class="datai">BOLETO</td>
+<td align="right" width="198" colspan="1" class="datai">R$ 172,50</td>
+</tr>
+<tr>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="298" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 240,00</td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 172,00</td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 172,50</td>
+</tr>
+<tr><td align="left" width="2298" colspan="11" class="break">3156 - Fernanda Cofferi | Francês</td>
+</tr>
+<tr>
+<td align="left" width="198" colspan="1" class="datap">3156</td>
+<td align="left" width="198" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="298" colspan="1" class="datap">FERNANDA COFFERI</td>
+<td align="left" width="198" colspan="1" class="datap">CORRETO - INDIVIDUAL</td>
+<td align="right" width="198" colspan="1" class="datap">R$ 240,00</td>
+<td align="right" width="198" colspan="1" class="datap">R$ 172,00</td>
+<td align="center" width="198" colspan="1" class="datap">9</td>
+<td align="center" width="198" colspan="1" class="datap">10/09/2022</td>
+<td align="center" width="198" colspan="1" class="datap">02/09/2022</td>
+<td align="center" width="198" colspan="1" class="datap">BOLETO</td>
+<td align="right" width="198" colspan="1" class="datap">R$ 172,50</td>
+</tr>
+<tr>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="298" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 240,00</td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 172,00</td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 172,50</td>
+</tr>
+<tr><td align="left" width="2298" colspan="11" class="break">3620 - Luciano da Silva Junior | Inglês</td>
+</tr>
+<tr>
+<td align="left" width="198" colspan="1" class="datai">3620</td>
+<td align="left" width="198" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="298" colspan="1" class="datai">LUCIANO DA SILVA JUNIOR</td>
+<td align="left" width="198" colspan="1" class="datai">CORRETO - INDIVIDUAL</td>
+<td align="right" width="198" colspan="1" class="datai">R$ 240,00</td>
+<td align="right" width="198" colspan="1" class="datai">R$ 240,00</td>
+<td align="center" width="198" colspan="1" class="datai">2</td>
+<td align="center" width="198" colspan="1" class="datai">10/09/2022</td>
+<td align="center" width="198" colspan="1" class="datai">01/09/2022</td>
+<td align="center" width="198" colspan="1" class="datai">PIX</td>
+<td align="right" width="198" colspan="1" class="datai">R$ 240,00</td>
+</tr>
+<tr>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="298" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 240,00</td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 240,00</td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 240,00</td>
+</tr>
+<tr><td align="left" width="2298" colspan="11" class="break">4404 - Letícia Basso Pasa | Italiano</td>
+</tr>
+<tr>
+<td align="left" width="198" colspan="1" class="datap">4404</td>
+<td align="left" width="198" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="298" colspan="1" class="datap">LETÍCIA BASSO PASA</td>
+<td align="left" width="198" colspan="1" class="datap">CORRETO - INDIVIDUAL</td>
+<td align="right" width="198" colspan="1" class="datap">R$ 240,00</td>
+<td align="right" width="198" colspan="1" class="datap">R$ 215,00</td>
+<td align="center" width="198" colspan="1" class="datap">9</td>
+<td align="center" width="198" colspan="1" class="datap">10/09/2022</td>
+<td align="center" width="198" colspan="1" class="datap">01/09/2022</td>
+<td align="center" width="198" colspan="1" class="datap">BOLETO</td>
+<td align="right" width="198" colspan="1" class="datap">R$ 215,00</td>
+</tr>
+<tr>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="298" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 240,00</td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 215,00</td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 215,00</td>
+</tr>
+<tr><td align="left" width="2298" colspan="11" class="break">4416 - Letícia Basso Pasa | Espanhol</td>
+</tr>
+<tr>
+<td align="left" width="198" colspan="1" class="datai">4416</td>
+<td align="left" width="198" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="298" colspan="1" class="datai">LETÍCIA BASSO PASA</td>
+<td align="left" width="198" colspan="1" class="datai">CORRETO - INDIVIDUAL</td>
+<td align="right" width="198" colspan="1" class="datai">R$ 240,00</td>
+<td align="right" width="198" colspan="1" class="datai">R$ 215,00</td>
+<td align="center" width="198" colspan="1" class="datai">9</td>
+<td align="center" width="198" colspan="1" class="datai">10/09/2022</td>
+<td align="center" width="198" colspan="1" class="datai">01/09/2022</td>
+<td align="center" width="198" colspan="1" class="datai">BOLETO</td>
+<td align="right" width="198" colspan="1" class="datai">R$ 215,00</td>
+</tr>
+<tr>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="298" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 240,00</td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 215,00</td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 215,00</td>
+</tr>
+<tr><td align="left" width="2298" colspan="11" class="break">4428 - Letícia Basso Pasa | Inglês</td>
+</tr>
+<tr>
+<td align="left" width="198" colspan="1" class="datap">4428</td>
+<td align="left" width="198" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="298" colspan="1" class="datap">LETÍCIA BASSO PASA</td>
+<td align="left" width="198" colspan="1" class="datap">CORRETO - INDIVIDUAL</td>
+<td align="right" width="198" colspan="1" class="datap">R$ 240,00</td>
+<td align="right" width="198" colspan="1" class="datap">R$ 215,00</td>
+<td align="center" width="198" colspan="1" class="datap">9</td>
+<td align="center" width="198" colspan="1" class="datap">10/09/2022</td>
+<td align="center" width="198" colspan="1" class="datap">01/09/2022</td>
+<td align="center" width="198" colspan="1" class="datap">BOLETO</td>
+<td align="right" width="198" colspan="1" class="datap">R$ 215,00</td>
+</tr>
+<tr>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="298" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 240,00</td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 215,00</td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 215,00</td>
+</tr>
+<tr><td align="left" width="2298" colspan="11" class="break">4524 - Guilherme Schweitzer | Inglês</td>
+</tr>
+<tr>
+<td align="left" width="198" colspan="1" class="datai">4524</td>
+<td align="left" width="198" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="298" colspan="1" class="datai">GUILHERME SCHWEITZER</td>
+<td align="left" width="198" colspan="1" class="datai">CORRETO - INDIVIDUAL</td>
+<td align="right" width="198" colspan="1" class="datai">R$ 240,00</td>
+<td align="right" width="198" colspan="1" class="datai">R$ 200,00</td>
+<td align="center" width="198" colspan="1" class="datai">9</td>
+<td align="center" width="198" colspan="1" class="datai">10/09/2022</td>
+<td align="center" width="198" colspan="1" class="datai">01/09/2022</td>
+<td align="center" width="198" colspan="1" class="datai">BOLETO</td>
+<td align="right" width="198" colspan="1" class="datai">R$ 200,00</td>
+</tr>
+<tr>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="298" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 240,00</td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 200,00</td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 200,00</td>
+</tr>
+<tr><td align="left" width="2298" colspan="11" class="break">4656 - Maria Luisa Ribeiro de David | Inglês</td>
+</tr>
+<tr>
+<td align="left" width="198" colspan="1" class="datap">4656</td>
+<td align="left" width="198" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="298" colspan="1" class="datap">MARIA LUISA RIBEIRO DE DAVID</td>
+<td align="left" width="198" colspan="1" class="datap">CORRETO - INDIVIDUAL</td>
+<td align="right" width="198" colspan="1" class="datap">R$ 240,00</td>
+<td align="right" width="198" colspan="1" class="datap">R$ 240,00</td>
+<td align="center" width="198" colspan="1" class="datap">6</td>
+<td align="center" width="198" colspan="1" class="datap">10/09/2022</td>
+<td align="center" width="198" colspan="1" class="datap">02/09/2022</td>
+<td align="center" width="198" colspan="1" class="datap">PIX</td>
+<td align="right" width="198" colspan="1" class="datap">R$ 240,00</td>
+</tr>
+<tr>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="298" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 240,00</td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 240,00</td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 240,00</td>
+</tr>
+<tr><td align="left" width="2298" colspan="11" class="break">6114 - Suellen Trindade | Inglês</td>
+</tr>
+<tr>
+<td align="left" width="198" colspan="1" class="datai">6114</td>
+<td align="left" width="198" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="298" colspan="1" class="datai">SUELLEN TRINDADE</td>
+<td align="left" width="198" colspan="1" class="datai">CORRETO - INDIVIDUAL</td>
+<td align="right" width="198" colspan="1" class="datai">R$ 240,00</td>
+<td align="right" width="198" colspan="1" class="datai">R$ 240,00</td>
+<td align="center" width="198" colspan="1" class="datai">4</td>
+<td align="center" width="198" colspan="1" class="datai">10/09/2022</td>
+<td align="center" width="198" colspan="1" class="datai">01/09/2022</td>
+<td align="center" width="198" colspan="1" class="datai">BOLETO</td>
+<td align="right" width="198" colspan="1" class="datai">R$ 240,00</td>
+</tr>
+<tr>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="298" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 240,00</td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 240,00</td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 240,00</td>
+</tr>
+<tr><td align="left" width="2298" colspan="11" class="break">6252 - Thalia Roberta dos Santos | Inglês</td>
+</tr>
+<tr>
+<td align="left" width="198" colspan="1" class="datap">6252</td>
+<td align="left" width="198" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="298" colspan="1" class="datap">THALIA ROBERTA DOS SANTOS</td>
+<td align="left" width="198" colspan="1" class="datap">CORRETO - TURMA</td>
+<td align="right" width="198" colspan="1" class="datap">R$ 170,00</td>
+<td align="right" width="198" colspan="1" class="datap">R$ 150,00</td>
+<td align="center" width="198" colspan="1" class="datap">8</td>
+<td align="center" width="198" colspan="1" class="datap">10/09/2022</td>
+<td align="center" width="198" colspan="1" class="datap">02/09/2022</td>
+<td align="center" width="198" colspan="1" class="datap">BOLETO</td>
+<td align="right" width="198" colspan="1" class="datap">R$ 150,00</td>
+</tr>
+<tr>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="298" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 170,00</td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 150,00</td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 150,00</td>
+</tr>
+<tr><td align="left" width="2298" colspan="11" class="break">6290 - Thiago Molon  | Inglês</td>
+</tr>
+<tr>
+<td align="left" width="198" colspan="1" class="datai">6290</td>
+<td align="left" width="198" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="298" colspan="1" class="datai">THIAGO MOLON </td>
+<td align="left" width="198" colspan="1" class="datai">CORRETO - INDIVIDUAL</td>
+<td align="right" width="198" colspan="1" class="datai">R$ 240,00</td>
+<td align="right" width="198" colspan="1" class="datai">R$ 228,00</td>
+<td align="center" width="198" colspan="1" class="datai">10</td>
+<td align="center" width="198" colspan="1" class="datai">10/09/2022</td>
+<td align="center" width="198" colspan="1" class="datai">02/09/2022</td>
+<td align="center" width="198" colspan="1" class="datai">BOLETO</td>
+<td align="right" width="198" colspan="1" class="datai">R$ 228,00</td>
+</tr>
+<tr>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="298" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 240,00</td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 228,00</td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 228,00</td>
+</tr>
+<tr><td align="left" width="2298" colspan="11" class="break">6329 - Tiago Davila Denardi | Italiano</td>
+</tr>
+<tr>
+<td align="left" width="198" colspan="1" class="datap">6329</td>
+<td align="left" width="198" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="298" colspan="1" class="datap">TIAGO DAVILA DENARDI</td>
+<td align="left" width="198" colspan="1" class="datap">CORRETO - DUPLA</td>
+<td align="right" width="198" colspan="1" class="datap">R$ 190,00</td>
+<td align="right" width="198" colspan="1" class="datap">R$ 0,00</td>
+<td align="center" width="198" colspan="1" class="datap">9</td>
+<td align="center" width="198" colspan="1" class="datap">10/09/2022</td>
+<td align="center" width="198" colspan="1" class="datap">10/09/2022</td>
+<td align="center" width="198" colspan="1" class="datap">BOLETO</td>
+<td align="right" width="198" colspan="1" class="datap">R$ 0,00</td>
+</tr>
+<tr>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="298" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 190,00</td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 0,00</td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 0,00</td>
+</tr>
+<tr><td align="left" width="2298" colspan="11" class="break">7408 - Vinicius Ugolini Rigo | Inglês</td>
+</tr>
+<tr>
+<td align="left" width="198" colspan="1" class="datai">7408</td>
+<td align="left" width="198" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="298" colspan="1" class="datai">VINICIUS UGOLINI RIGO</td>
+<td align="left" width="198" colspan="1" class="datai">CORRETO - INDIVIDUAL FAMÍLIA</td>
+<td align="right" width="198" colspan="1" class="datai">R$ 220,00</td>
+<td align="right" width="198" colspan="1" class="datai">R$ 200,00</td>
+<td align="center" width="198" colspan="1" class="datai">10</td>
+<td align="center" width="198" colspan="1" class="datai">10/09/2022</td>
+<td align="center" width="198" colspan="1" class="datai">02/09/2022</td>
+<td align="center" width="198" colspan="1" class="datai">BOLETO</td>
+<td align="right" width="198" colspan="1" class="datai">R$ 200,00</td>
+</tr>
+<tr>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="298" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 220,00</td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 200,00</td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 200,00</td>
+</tr>
+<tr><td align="left" width="2298" colspan="11" class="break">7510 - Wilson Villabruna Junior | Inglês</td>
+</tr>
+<tr>
+<td align="left" width="198" colspan="1" class="datap">7510</td>
+<td align="left" width="198" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="298" colspan="1" class="datap">WILSON VILLABRUNA JUNIOR</td>
+<td align="left" width="198" colspan="1" class="datap">CORRETO - DUPLA FAMÍLIA</td>
+<td align="right" width="198" colspan="1" class="datap">R$ 170,00</td>
+<td align="right" width="198" colspan="1" class="datap">R$ 0,00</td>
+<td align="center" width="198" colspan="1" class="datap">1</td>
+<td align="center" width="198" colspan="1" class="datap">10/09/2022</td>
+<td align="center" width="198" colspan="1" class="datap">10/09/2022</td>
+<td align="center" width="198" colspan="1" class="datap">BOLETO</td>
+<td align="right" width="198" colspan="1" class="datap">R$ 0,00</td>
+</tr>
+<tr>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="298" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 170,00</td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 0,00</td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="198" colspan="1" class="breakTotal">R$ 0,00</td>
+</tr>
+<tr>
+<td align="center" width="198" colspan="1" class="total"></td>
+<td align="center" width="198" colspan="1" class="total"></td>
+<td align="center" width="298" colspan="1" class="total"></td>
+<td align="center" width="198" colspan="1" class="total"></td>
+<td align="right" width="198" colspan="1" class="total">R$ 5.255,00</td>
+<td align="right" width="198" colspan="1" class="total">R$ 3.957,00</td>
+<td align="center" width="198" colspan="1" class="total"></td>
+<td align="center" width="198" colspan="1" class="total"></td>
+<td align="center" width="198" colspan="1" class="total"></td>
+<td align="center" width="198" colspan="1" class="total"></td>
+<td align="right" width="198" colspan="1" class="total">R$ 3.958,00</td>
+</tr>
+</table>
+</html>

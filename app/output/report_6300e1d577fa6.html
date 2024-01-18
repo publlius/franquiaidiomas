@@ -1,0 +1,382 @@
+<html>
+<style>
+    .title
+    {
+        font-family: Helvetica;
+        color: #000000;
+        background-color: #dbdbdb;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-weight: bold;
+    }
+    .datap
+    {
+        font-family: Arial;
+        color: #333333;
+        background-color: #f0f0f0;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+    }
+    .datai
+    {
+        font-family: Arial;
+        color: #333333;
+        background-color: #ffffff;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+    }
+    .header
+    {
+        font-family: Helvetica;
+        color: #5a5a5a;
+        background-color: #6B6B6B;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 16pt;
+        font-weight: bold;
+    }
+    .footer
+    {
+        font-family: Helvetica;
+        color: #5a5a5a;
+        background-color: #A3A3A3;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-weight: bold;
+    }
+    .break
+    {
+        font-family: Helvetica;
+        color: #ffffff;
+        background-color: #9a9a9a;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-weight: bold;
+    }
+    .total
+    {
+        font-family: Helvetica;
+        color: #000000;
+        background-color: #c7c7c7;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-style: italic;
+    }
+    .breakTotal
+    {
+        font-family: Helvetica;
+        color: #000000;
+        background-color: #c6c8d0;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-style: italic;
+    }
+</style>
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse">
+<tr>
+<td align="left" width="78" colspan="1" class="title">Data</td>
+<td align="left" width="38" colspan="1" class="title">Tipo</td>
+<td align="left" width="348" colspan="1" class="title">Turma/Aluno</td>
+<td align="left" width="148" colspan="1" class="title">Unidade</td>
+<td align="left" width="198" colspan="1" class="title">Professor</td>
+<td align="right" width="98" colspan="1" class="title">Valor</td>
+</tr>
+<tr><td align="left" width="918" colspan="6" class="break">Erik Loat</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">19/08/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">VITOR RIBEIRO CARDOSO</td>
+<td align="left" width="148" colspan="1" class="datai">FRAIBURGO</td>
+<td align="left" width="198" colspan="1" class="datai">ERIK LOAT</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">19/08/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">ALICE GREGORIO</td>
+<td align="left" width="148" colspan="1" class="datap">FRAIBURGO</td>
+<td align="left" width="198" colspan="1" class="datap">ERIK LOAT</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">19/08/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 29</td>
+<td align="left" width="148" colspan="1" class="datai">FRAIBURGO</td>
+<td align="left" width="198" colspan="1" class="datai">ERIK LOAT</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">19/08/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 03</td>
+<td align="left" width="148" colspan="1" class="datap">FRAIBURGO</td>
+<td align="left" width="198" colspan="1" class="datap">ERIK LOAT</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="center" width="78" colspan="1" class="breakTotal"></td>
+<td align="center" width="38" colspan="1" class="breakTotal"></td>
+<td align="center" width="348" colspan="1" class="breakTotal"></td>
+<td align="center" width="148" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="98" colspan="1" class="breakTotal">R$ 100,00</td>
+</tr>
+<tr><td align="left" width="918" colspan="6" class="break">Fabiana de Oliveira Molina</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">19/08/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">MURILO VINICIUS GIRARD BARON (INDIVIDUAL)</td>
+<td align="left" width="148" colspan="1" class="datai">FRAIBURGO</td>
+<td align="left" width="198" colspan="1" class="datai">FABIANA DE OLIVEIRA MOLINA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="center" width="78" colspan="1" class="breakTotal"></td>
+<td align="center" width="38" colspan="1" class="breakTotal"></td>
+<td align="center" width="348" colspan="1" class="breakTotal"></td>
+<td align="center" width="148" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="98" colspan="1" class="breakTotal">R$ 30,00</td>
+</tr>
+<tr><td align="left" width="918" colspan="6" class="break">João Victor Schaly</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">19/08/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">HELOISA GABRIELY DE VILLA</td>
+<td align="left" width="148" colspan="1" class="datap">FRAIBURGO</td>
+<td align="left" width="198" colspan="1" class="datap">JOÃO VICTOR SCHALY</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="center" width="78" colspan="1" class="breakTotal"></td>
+<td align="center" width="38" colspan="1" class="breakTotal"></td>
+<td align="center" width="348" colspan="1" class="breakTotal"></td>
+<td align="center" width="148" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="98" colspan="1" class="breakTotal">R$ 25,00</td>
+</tr>
+<tr><td align="left" width="918" colspan="6" class="break">Julia Zarro</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">19/08/2022</td>
+<td align="left" width="38" colspan="1" class="datai">R</td>
+<td align="left" width="348" colspan="1" class="datai">DANIELLE CAMARGO (INDIVIDUAL)</td>
+<td align="left" width="148" colspan="1" class="datai">FRAIBURGO</td>
+<td align="left" width="198" colspan="1" class="datai">JULIA ZARRO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="center" width="78" colspan="1" class="breakTotal"></td>
+<td align="center" width="38" colspan="1" class="breakTotal"></td>
+<td align="center" width="348" colspan="1" class="breakTotal"></td>
+<td align="center" width="148" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="98" colspan="1" class="breakTotal">R$ 25,00</td>
+</tr>
+<tr><td align="left" width="918" colspan="6" class="break">Larissa Zancanelli</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">19/08/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 02</td>
+<td align="left" width="148" colspan="1" class="datap">FRAIBURGO</td>
+<td align="left" width="198" colspan="1" class="datap">LARISSA ZANCANELLI</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">19/08/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 36</td>
+<td align="left" width="148" colspan="1" class="datai">FRAIBURGO</td>
+<td align="left" width="198" colspan="1" class="datai">LARISSA ZANCANELLI</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">19/08/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 25</td>
+<td align="left" width="148" colspan="1" class="datap">FRAIBURGO</td>
+<td align="left" width="198" colspan="1" class="datap">LARISSA ZANCANELLI</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">19/08/2022</td>
+<td align="left" width="38" colspan="1" class="datai">R</td>
+<td align="left" width="348" colspan="1" class="datai">KAROLINA BORSATTI (INDIVIDUAL)</td>
+<td align="left" width="148" colspan="1" class="datai">FRAIBURGO</td>
+<td align="left" width="198" colspan="1" class="datai">LARISSA ZANCANELLI</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">19/08/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">RAFAEL FAGUNDES NICOLAO</td>
+<td align="left" width="148" colspan="1" class="datap">FRAIBURGO</td>
+<td align="left" width="198" colspan="1" class="datap">LARISSA ZANCANELLI</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="center" width="78" colspan="1" class="breakTotal"></td>
+<td align="center" width="38" colspan="1" class="breakTotal"></td>
+<td align="center" width="348" colspan="1" class="breakTotal"></td>
+<td align="center" width="148" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="98" colspan="1" class="breakTotal">R$ 125,00</td>
+</tr>
+<tr><td align="left" width="918" colspan="6" class="break">Loivani Venturin</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">19/08/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 13</td>
+<td align="left" width="148" colspan="1" class="datai">FRAIBURGO</td>
+<td align="left" width="198" colspan="1" class="datai">LOIVANI VENTURIN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">19/08/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 05</td>
+<td align="left" width="148" colspan="1" class="datap">FRAIBURGO</td>
+<td align="left" width="198" colspan="1" class="datap">LOIVANI VENTURIN</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">19/08/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">FELIPE MASSAROLI  (INDIVIDUAL)</td>
+<td align="left" width="148" colspan="1" class="datai">FRAIBURGO</td>
+<td align="left" width="198" colspan="1" class="datai">LOIVANI VENTURIN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="center" width="78" colspan="1" class="breakTotal"></td>
+<td align="center" width="38" colspan="1" class="breakTotal"></td>
+<td align="center" width="348" colspan="1" class="breakTotal"></td>
+<td align="center" width="148" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="98" colspan="1" class="breakTotal">R$ 75,00</td>
+</tr>
+<tr><td align="left" width="918" colspan="6" class="break">Lorenzo Biaggiotti</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">19/08/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">CASSIANO BARZOTTO KOHLRASUSCH (INDIVIDUAL)</td>
+<td align="left" width="148" colspan="1" class="datap">FRAIBURGO</td>
+<td align="left" width="198" colspan="1" class="datap">LORENZO BIAGGIOTTI</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="center" width="78" colspan="1" class="breakTotal"></td>
+<td align="center" width="38" colspan="1" class="breakTotal"></td>
+<td align="center" width="348" colspan="1" class="breakTotal"></td>
+<td align="center" width="148" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="98" colspan="1" class="breakTotal">R$ 30,00</td>
+</tr>
+<tr><td align="left" width="918" colspan="6" class="break">Mateus Dallazen</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">19/08/2022</td>
+<td align="left" width="38" colspan="1" class="datai">R</td>
+<td align="left" width="348" colspan="1" class="datai">TURMA 23</td>
+<td align="left" width="148" colspan="1" class="datai">FRAIBURGO</td>
+<td align="left" width="198" colspan="1" class="datai">MATEUS DALLAZEN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">19/08/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">EDUARDA FLESCH</td>
+<td align="left" width="148" colspan="1" class="datap">FRAIBURGO</td>
+<td align="left" width="198" colspan="1" class="datap">MATEUS DALLAZEN</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="center" width="78" colspan="1" class="breakTotal"></td>
+<td align="center" width="38" colspan="1" class="breakTotal"></td>
+<td align="center" width="348" colspan="1" class="breakTotal"></td>
+<td align="center" width="148" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="98" colspan="1" class="breakTotal">R$ 50,00</td>
+</tr>
+<tr><td align="left" width="918" colspan="6" class="break">Silvestre Volpato</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">19/08/2022</td>
+<td align="left" width="38" colspan="1" class="datai">R</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 13</td>
+<td align="left" width="148" colspan="1" class="datai">FRAIBURGO</td>
+<td align="left" width="198" colspan="1" class="datai">SILVESTRE VOLPATO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">19/08/2022</td>
+<td align="left" width="38" colspan="1" class="datap">R</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 15</td>
+<td align="left" width="148" colspan="1" class="datap">FRAIBURGO</td>
+<td align="left" width="198" colspan="1" class="datap">SILVESTRE VOLPATO</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">19/08/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">ISABELA BRANDT MACIEL (INDIVIDUAL)</td>
+<td align="left" width="148" colspan="1" class="datai">FRAIBURGO</td>
+<td align="left" width="198" colspan="1" class="datai">SILVESTRE VOLPATO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">19/08/2022</td>
+<td align="left" width="38" colspan="1" class="datap">R</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 02</td>
+<td align="left" width="148" colspan="1" class="datap">FRAIBURGO</td>
+<td align="left" width="198" colspan="1" class="datap">SILVESTRE VOLPATO</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="center" width="78" colspan="1" class="breakTotal"></td>
+<td align="center" width="38" colspan="1" class="breakTotal"></td>
+<td align="center" width="348" colspan="1" class="breakTotal"></td>
+<td align="center" width="148" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="98" colspan="1" class="breakTotal">R$ 120,00</td>
+</tr>
+<tr>
+<td align="center" width="78" colspan="1" class="total"></td>
+<td align="center" width="38" colspan="1" class="total"></td>
+<td align="center" width="348" colspan="1" class="total"></td>
+<td align="center" width="148" colspan="1" class="total"></td>
+<td align="center" width="198" colspan="1" class="total"></td>
+<td align="right" width="98" colspan="1" class="total">R$ 580,00</td>
+</tr>
+</table>
+</html>

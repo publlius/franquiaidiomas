@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+  <menuitem label="Cadastros">
+    <icon>far:edit fa-fw</icon>
+    <menu>
+      <menuitem label="Alunos">
+        <action>AlunoList#method=onShow</action>
+        <icon>fas:user fa-fw</icon>
+      </menuitem>
+      <menuitem label="Alunos View">
+        <action>AlunoFormView#method=onShow</action>
+        <icon>far:circle fa-fw</icon>
+      </menuitem>
+      <menuitem label="Books">
+        <action>BookList#method=onShow</action>
+        <icon>fa fa fa-fw fa-fw</icon>
+      </menuitem>
+      <menuitem label="Cidades">
+        <action>CidadeList#method=onShow</action>
+        <icon>far:circle fa-fw</icon>
+      </menuitem>
+      <menuitem label="Convenios">
+        <action>ConvenioList#method=onShow</action>
+        <icon>fas:industry fa-fw</icon>
+      </menuitem>
+      <menuitem label="Estados">
+        <action>EstadoList#method=onShow</action>
+        <icon>far:circle fa-fw</icon>
+      </menuitem>
+      <menuitem label="Idiomas">
+        <action>IdiomaList#method=onShow</action>
+        <icon>fa fa fa-fw fa-fw</icon>
+      </menuitem>
+      <menuitem label="Países">
+        <action>PaisList#method=onShow</action>
+        <icon>far:circle fa-fw</icon>
+      </menuitem>
+      <menuitem label="Pastas">
+        <action>PastaList#method=onShow</action>
+        <icon>far:circle fa-fw</icon>
+      </menuitem>
+      <menuitem label="Planos">
+        <action>PlanoList#method=onShow</action>
+        <icon>fas:dollar-sign fa-fw</icon>
+      </menuitem>
+      <menuitem label="Professores (remuneração)">
+        <action>ProfessorHeaderList#method=onShow</action>
+        <icon>far:circle fa-fw</icon>
+      </menuitem>
+      <menuitem label="Salas">
+        <action>SalaList#method=onShow</action>
+        <icon>fas:table fa-fw</icon>
+      </menuitem>
+      <menuitem label="Stages">
+        <action>StageList#method=onShow</action>
+        <icon>far:circle fa-fw</icon>
+      </menuitem>
+      <menuitem label="Status cores">
+        <action>StatusCorHeaderList#method=onShow</action>
+        <icon>far:circle fa-fw</icon>
+      </menuitem>
+      <menuitem label="Turmas">
+        <action>TurmaList#method=onShow</action>
+        <icon>far:circle fa-fw</icon>
+      </menuitem>
+      <menuitem label="Forma pagamentos">
+        <action>FormaPagamentoHeaderList#method=onShow</action>
+        <icon>far:circle fa-fw</icon>
+      </menuitem>
+      <menuitem label="Status Matrículas">
+        <action>SituacaoHeaderList#method=onShow</action>
+        <icon>far:circle fa-fw</icon>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="Lançamentos">
+    <icon>fas:edit fa-fw</icon>
+    <menu>
+      <menuitem label="Agenda Professor">
+        <action>AgendaProfessorFormView</action>
+        <icon>far:circle fa-fw</icon>
+      </menuitem>
+      <menuitem label="Agenda Gestores">
+        <action>AgendaGestoresFIlterForm#method=onShow</action>
+        <icon>far:circle fa-fw</icon>
+      </menuitem>
+      <menuitem label="Contrato alunos">
+        <action>ContratoAlunoHeaderList#method=onShow</action>
+        <icon>far:circle fa-fw</icon>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="Relatórios">
+    <icon>far:file-pdf fa-fw</icon>
+    <menu>
+      <menuitem label="Aniversários">
+        <action>Aniversario#method=onShow</action>
+        <icon>fa fa fa-fw fa-fw</icon>
+      </menuitem>
+      <menuitem label="Alunos">
+        <action>AlunoReport#method=onShow</action>
+        <icon>far:address-book fa-fw</icon>
+      </menuitem>
+      <menuitem label="Responsável Aluno">
+        <action>ResponsavelAlunoReport#method=onShow</action>
+        <icon>fas:user-circle fa-fw</icon>
+      </menuitem>
+      <menuitem label="Livros por aluno">
+        <action>LivroAlunoReport#method=onShow</action>
+        <icon>far:circle fa-fw</icon>
+      </menuitem>
+      <menuitem label="Faturamento Aluno">
+        <action>FaturamentoAlunoReport#method=onShow</action>
+        <icon>far:circle fa-fw</icon>
+      </menuitem>
+      <menuitem label="Faturamento Mensal">
+        <action>FaturamentoMensalReport#method=onShow</action>
+        <icon>far:circle fa-fw</icon>
+      </menuitem>
+      <menuitem label="Aulas realizadas">
+        <action>AulaProfessorReport#method=onShow</action>
+        <icon>far:circle fa-fw</icon>
+      </menuitem>
+      <menuitem label="Aulas dadas">
+        <action>AulaDadaReport#method=onShow</action>
+        <icon>far:circle fa-fw</icon>
+      </menuitem>
+      <menuitem label="Contratos Alunos (total)">
+        <action>ContratoAlunoTotalReport#method=onShow</action>
+        <icon>far:circle fa-fw</icon>
+      </menuitem>
+      <menuitem label="Aniversariantes">
+        <action>AlunoAniversarianteReport#method=onShow</action>
+        <icon>far:circle fa-fw</icon>
+      </menuitem>
+      <menuitem label="Aniversários">
+        <action>AniversarioReport#method=onShow</action>
+        <icon>far:circle fa-fw</icon>
+      </menuitem>
+      <menuitem label="Contratos Alunos(Inadimplentes)">
+        <action>ContratoAlunoParcelaInadimplenteReport#method=onShow</action>
+        <icon>far:circle fa-fw</icon>
+      </menuitem>
+      <menuitem label="Usuários">
+        <action>UsuarioReport#method=onShow</action>
+        <icon>far:circle fa-fw</icon>
+      </menuitem>
+      <menuitem label="Contratos Alunos">
+        <action>ContratoAlunoParcelaReport#method=onShow</action>
+        <icon>far:circle fa-fw</icon>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="Gráficos">
+    <icon>far:chart-bar fa-fw</icon>
+    <menu>
+      <menuitem label="Faturamento">
+        <action>FaturamentoChart#method=onShow</action>
+        <icon>far:circle fa-fw</icon>
+      </menuitem>
+      <menuitem label="Top Planos">
+        <action>TopPlanoChart#method=onShow</action>
+        <icon>far:circle fa-fw</icon>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="_t{Administration}">
+    <icon>fas:home fa-fw</icon>
+    <menu>
+      <menuitem label="Dashboard">
+        <action>SystemAdministrationDashboard</action>
+        <icon>fas:tachometer-alt fa-fw</icon>
+      </menuitem>
+      <menuitem label="_t{Programs}">
+        <action>SystemProgramList</action>
+        <icon>far:file-code fa-fw</icon>
+      </menuitem>
+      <menuitem label="_t{Groups}">
+        <action>SystemGroupList</action>
+        <icon>fas:users fa-fw</icon>
+      </menuitem>
+      <menuitem label="_t{Units}">
+        <action>SystemUnitList</action>
+        <icon>fas:university fa-fw</icon>
+      </menuitem>
+      <menuitem label="_t{Users}">
+        <action>SystemUserList</action>
+        <icon>fas:user fa-fw</icon>
+      </menuitem>
+      <menuitem label="_t{Database explorer}">
+        <action>SystemDatabaseExplorer</action>
+        <icon>fas:database fa-fw</icon>
+      </menuitem>
+      <menuitem label="_t{SQL Panel}">
+        <action>SystemSQLPanel</action>
+        <icon>fas:table fa-fw</icon>
+      </menuitem>
+      <menuitem label="_t{Menu editor}">
+        <action>SystemMenuEditor</action>
+        <icon>far:edit fa-fw</icon>
+      </menuitem>
+      <menuitem label="_t{Files diff}">
+        <action>SystemFilesDiff</action>
+        <icon>fas:file-medical-alt fa-fw</icon>
+      </menuitem>
+      <menuitem label="PHP Info">
+        <action>SystemPHPInfoView</action>
+        <icon>fas:info-circle fa-fw</icon>
+      </menuitem>
+      <menuitem label="System Information">
+        <action>SystemInformationView</action>
+        <icon>fas:desktop fa-fw</icon>
+      </menuitem>
+      <menuitem label="_t{Preferences}">
+        <action>SystemPreferenceForm#method=onEdit</action>
+        <icon>fas:cog fa-fw</icon>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="_t{Documents}">
+    <icon>far:file-alt fa-fw</icon>
+    <menu>
+      <menuitem label="_t{Send document}">
+        <action>SystemDocumentUploadForm</action>
+        <icon>fas:cloud-upload-alt fa-fw</icon>
+      </menuitem>
+      <menuitem label="_t{My documents}">
+        <action>SystemDocumentList</action>
+        <icon>fas:archive fa-fw</icon>
+      </menuitem>
+      <menuitem label="_t{Shared with me}">
+        <action>SystemSharedDocumentList</action>
+        <icon>fas:share-alt fa-fw</icon>
+      </menuitem>
+      <menuitem label="_t{Categories}">
+        <action>SystemDocumentCategoryFormList</action>
+        <icon>fas:th fa-fw</icon>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="Logs">
+    <icon>fas:desktop fa-fw</icon>
+    <menu>
+      <menuitem label="Dashboard">
+        <action>SystemLogDashboard</action>
+        <icon>fas:tachometer-alt fa-fw</icon>
+      </menuitem>
+      <menuitem label="_t{Access Log}">
+        <action>SystemAccessLogList</action>
+        <icon>fas:key fa-fw</icon>
+      </menuitem>
+      <menuitem label="_t{Change Log}">
+        <action>SystemChangeLogView</action>
+        <icon>fas:film fa-fw</icon>
+      </menuitem>
+      <menuitem label="_t{SQL Log}">
+        <action>SystemSqlLogList</action>
+        <icon>fas:database fa-fw</icon>
+      </menuitem>
+      <menuitem label="_t{Request Log}">
+        <action>SystemRequestLogList</action>
+        <icon>fas:globe fa-fw</icon>
+      </menuitem>
+      <menuitem label="_t{PHP Log}">
+        <action>SystemPHPErrorLogView</action>
+        <icon>fas:exclamation-triangle fa-fw</icon>
+      </menuitem>
+      <menuitem label="Session dump">
+        <action>SystemSessionDumpView</action>
+        <icon>fas:code fa-fw</icon>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="Logout">
+    <action>LoginForm#method=onLogout#static=1</action>
+    <icon>fas:sign-out-alt fa-fw</icon>
+  </menuitem>
+</menu>

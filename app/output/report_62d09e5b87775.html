@@ -1,0 +1,966 @@
+<html>
+<style>
+    .title
+    {
+        font-family: Helvetica;
+        color: #000000;
+        background-color: #dbdbdb;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-weight: bold;
+    }
+    .datap
+    {
+        font-family: Arial;
+        color: #333333;
+        background-color: #f0f0f0;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+    }
+    .datai
+    {
+        font-family: Arial;
+        color: #333333;
+        background-color: #ffffff;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+    }
+    .header
+    {
+        font-family: Helvetica;
+        color: #5a5a5a;
+        background-color: #6B6B6B;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 16pt;
+        font-weight: bold;
+    }
+    .footer
+    {
+        font-family: Helvetica;
+        color: #5a5a5a;
+        background-color: #A3A3A3;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-weight: bold;
+    }
+    .break
+    {
+        font-family: Helvetica;
+        color: #ffffff;
+        background-color: #9a9a9a;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-weight: bold;
+    }
+    .total
+    {
+        font-family: Helvetica;
+        color: #000000;
+        background-color: #c7c7c7;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-style: italic;
+    }
+    .breakTotal
+    {
+        font-family: Helvetica;
+        color: #000000;
+        background-color: #c6c8d0;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-style: italic;
+    }
+</style>
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse">
+<tr>
+<td align="left" width="78" colspan="1" class="title">Data</td>
+<td align="left" width="38" colspan="1" class="title">Tipo</td>
+<td align="left" width="348" colspan="1" class="title">Turma/Aluno</td>
+<td align="left" width="148" colspan="1" class="title">Unidade</td>
+<td align="left" width="198" colspan="1" class="title">Professor</td>
+<td align="right" width="98" colspan="1" class="title">Valor</td>
+</tr>
+<tr><td align="left" width="918" colspan="6" class="break">Rafael Bellaver Paulek</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">01/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">JOBER AUGUSTO CARNEIRO BASEGGIO </td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">01/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">R</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 04</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">01/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">ANNA LUIZA FEIX</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">01/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">R</td>
+<td align="left" width="348" colspan="1" class="datap">RITA DE CASSIA DRIESSEN</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">01/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">ALISSON ANDRE ESCHER</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">01/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">JOÃO LUIZ BIASI RIBEIRO</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">02/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">ALEXANDRE JUNIOR WITTMAN</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">02/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">PAULO ROBERTO CORDOVA</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">02/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">R</td>
+<td align="left" width="348" colspan="1" class="datai">ALINE MORAES TRACZNSKI</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">02/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">MAJURIE ZAVASCKI</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">03/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">R</td>
+<td align="left" width="348" colspan="1" class="datai">MANOELA NORDIO</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">03/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">ENRICO GIOPPO BORTOLON RIBAS</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">03/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 23</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">03/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">NAIANE ALICE APARECIDA BROZINGA</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">04/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">TURMA 05</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 37,50</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">04/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">R</td>
+<td align="left" width="348" colspan="1" class="datap">JEANE PIRES HORN</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">04/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">GABRIEL STEFANIAK DE ALVARENGA</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">04/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">R</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 03</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">06/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">ESTHER XAVIER BORGES</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">06/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">R</td>
+<td align="left" width="348" colspan="1" class="datap">LETICIA ALVARENGA DE FRANÇA</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">06/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">R</td>
+<td align="left" width="348" colspan="1" class="datai">GUILHERME DENIZ SANCHES</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">06/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">ITHAN RAFAEL RODRIGUES</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">07/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 28</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">07/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">RITA DE CASSIA DRIESSEN</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">07/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">ALEXSANDER OLSEN</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">07/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">R</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 11</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 12,50</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">07/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">R</td>
+<td align="left" width="348" colspan="1" class="datai">TURMA 17</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">08/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">NADYESA NIEWINSKI DE MATTOS</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">08/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">ARIZOLI BRUM DE CAMPOS</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">08/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">THOMAS GUILHERME CORDEIRO</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">09/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">FLAVIA IGLESIAS EURIQUES</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">09/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">EDIMO DEBARBA JUNIOR</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">09/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 11</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">09/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">FERDINANDO SERGIO BARCARO</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">09/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">LUISA CAVANHI</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">09/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">ALEXANDRE JUNIOR WITTMAN</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">09/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">ALICE MAFFIOLETTI</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">10/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 07</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">10/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">R</td>
+<td align="left" width="348" colspan="1" class="datai">GABRIEL MACHADO DAMACENO</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">10/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">R</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 02</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 12,50</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">10/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">ISADORA DOS SANTOS MALLMAN</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">10/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">ENRICO GIOPPO BORTOLON RIBAS</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">10/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">PEDRO HENRIQUE FRANÇA MACENO</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">11/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">R</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 09</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">11/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 13</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">13/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 26</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">13/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">LETICIA ABATTI</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">13/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">R</td>
+<td align="left" width="348" colspan="1" class="datap">DANIEL PIROLLI</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">13/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">NICOLY CAROLINE MAIA</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">14/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 14</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">14/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DEBORA DE FATIMA BARTOVSKI</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">14/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 28</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">15/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">R</td>
+<td align="left" width="348" colspan="1" class="datai">GUILHERME DENIZ SANCHES</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">15/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">LEOMIR LUIZ TESSER</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">15/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">TURMA 16</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">15/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">R</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 22</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">20/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 04</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">20/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 04</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">21/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">TURMA 11</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">21/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 14</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">21/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">ALEXSANDER OLSEN</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">21/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 18</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">21/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">R</td>
+<td align="left" width="348" colspan="1" class="datai">HELENA DALELLASTE RECALCATE</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">21/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">R</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 14</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 12,50</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">22/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">R</td>
+<td align="left" width="348" colspan="1" class="datai">TURMA 12</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 12,50</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">22/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 02</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">22/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">TURMA 12</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">22/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">WAGNER TOREZAN</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">23/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">FLAVIA IGLESIAS EURIQUES</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">23/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">HUGO HENRIQUE HASSE</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">23/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">R</td>
+<td align="left" width="348" colspan="1" class="datai">KETLYN  STOEKLE</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">23/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">R</td>
+<td align="left" width="348" colspan="1" class="datap">LUISA CAVANHI</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">23/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">LUISA CAVANHI</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">23/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">GUSTAVO HENRIQUE SOARES</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">23/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">ALICE MAFFIOLETTI</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">23/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 07</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">23/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">EXPERIMENTAL </td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 12,50</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">24/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">ALEXSANDRO DA ROSA PADILHA</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">24/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">TURMA 10</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">24/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">ANA JULIA LEAL DE SOUZA</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">24/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">TURMA 07</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">24/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 22</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">24/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">TURMA 02</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">24/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">MATHEUS HEINZ</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">25/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">TURMA 01</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">25/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">R</td>
+<td align="left" width="348" colspan="1" class="datap">JEANE PIRES HORN</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">25/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 06</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">27/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">R</td>
+<td align="left" width="348" colspan="1" class="datap">MURILO HENRIQUE BRITO DOS SANTOS</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">27/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 04</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">27/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">R</td>
+<td align="left" width="348" colspan="1" class="datap">MURILO HENRIQUE BRITO DOS SANTOS</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">28/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DEBORA DE FATIMA BARTOVSKI</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">28/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">EXPERIMENTAL </td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 12,50</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">28/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 18</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">28/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 14</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">29/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">FELIPE FRUHALF FIGUEROA</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">29/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 12</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">29/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">TURMA 16</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">29/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">R</td>
+<td align="left" width="348" colspan="1" class="datap">ANNA LUIZA FEIX</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">29/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">PAULO BRIK</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">30/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">HUGO HENRIQUE HASSE</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">30/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">LUISA CAVANHI</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">30/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 18</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">30/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">MANOELA NORDIO</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">30/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">ALICE MAFFIOLETTI</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">30/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">MIGUEL BONDICZ MOTTA</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">RAFAEL BELLAVER PAULEK</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="center" width="78" colspan="1" class="breakTotal"></td>
+<td align="center" width="38" colspan="1" class="breakTotal"></td>
+<td align="center" width="348" colspan="1" class="breakTotal"></td>
+<td align="center" width="148" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="98" colspan="1" class="breakTotal">R$ 2.562,50</td>
+</tr>
+<tr>
+<td align="center" width="78" colspan="1" class="total"></td>
+<td align="center" width="38" colspan="1" class="total"></td>
+<td align="center" width="348" colspan="1" class="total"></td>
+<td align="center" width="148" colspan="1" class="total"></td>
+<td align="center" width="198" colspan="1" class="total"></td>
+<td align="right" width="98" colspan="1" class="total">R$ 2.562,50</td>
+</tr>
+</table>
+</html>

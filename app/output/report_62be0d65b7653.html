@@ -1,0 +1,734 @@
+<html>
+<style>
+    .title
+    {
+        font-family: Helvetica;
+        color: #000000;
+        background-color: #dbdbdb;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-weight: bold;
+    }
+    .datap
+    {
+        font-family: Arial;
+        color: #333333;
+        background-color: #f0f0f0;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+    }
+    .datai
+    {
+        font-family: Arial;
+        color: #333333;
+        background-color: #ffffff;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+    }
+    .header
+    {
+        font-family: Helvetica;
+        color: #5a5a5a;
+        background-color: #6B6B6B;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 16pt;
+        font-weight: bold;
+    }
+    .footer
+    {
+        font-family: Helvetica;
+        color: #5a5a5a;
+        background-color: #A3A3A3;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-weight: bold;
+    }
+    .break
+    {
+        font-family: Helvetica;
+        color: #ffffff;
+        background-color: #9a9a9a;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-weight: bold;
+    }
+    .total
+    {
+        font-family: Helvetica;
+        color: #000000;
+        background-color: #c7c7c7;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-style: italic;
+    }
+    .breakTotal
+    {
+        font-family: Helvetica;
+        color: #000000;
+        background-color: #c6c8d0;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-style: italic;
+    }
+</style>
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse">
+<tr>
+<td align="left" width="78" colspan="1" class="title">Data</td>
+<td align="left" width="38" colspan="1" class="title">Tipo</td>
+<td align="left" width="348" colspan="1" class="title">Turma/Aluno</td>
+<td align="left" width="148" colspan="1" class="title">Unidade</td>
+<td align="left" width="198" colspan="1" class="title">Professor</td>
+<td align="right" width="98" colspan="1" class="title">Valor</td>
+</tr>
+<tr><td align="left" width="918" colspan="6" class="break">Bruna Henkel Driessen</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">01/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">PAULO BRIK</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">01/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">LILY PONS DRISSEN RODRIGUES BRESSAN</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">01/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">WAGNER TOREZAN</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">02/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">WELIGTON  DOS SANTOS RIBEIRO</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">02/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">GUSTAVO HENRIQUE SOARES</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">02/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DANIEL ANTONIO DA SILVA</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">03/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">TURMA 03</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">03/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 09</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">03/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">MATHEUS ALVARENGA FRANÇA</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">03/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">GABRIEL KMITA CAREGNATO - ALEMÃO</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">04/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 13</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">04/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 01</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">06/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">ARIZOLI BRUM DE CAMPOS</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">06/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 04</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">06/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">THOMAS GUILHERME CORDEIRO</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">07/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 27</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">07/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">EXPERIMENTAL </td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 12,50</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">07/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 11</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">08/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">TURMA 16</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">08/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">FELIPE FRUHALF FIGUEROA</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">09/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">MANOELA NORDIO</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">09/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">BRUNO FRANCIO</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">09/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DANIEL PIROLLI</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">09/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">MAJURIE ZAVASCKI</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">10/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">ANA JULIA LEAL DE SOUZA</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">10/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">MATHEUS ALVARENGA FRANÇA</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">10/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">GABRIEL KMITA CAREGNATO - ALEMÃO</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">10/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 02</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">10/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">LETICIA ALVARENGA DE FRANÇA</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">10/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 06</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">10/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">TURMA 10</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">11/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 06</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">11/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">MATHEUS RAMOS</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">11/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">MURILO HENRIQUE BRITO DOS SANTOS</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">13/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 04</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">13/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">MARCEL FEIX</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">13/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">RICARDO BALATKA</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">13/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">AULA EXPERIMENTAL - ALUNOS CDI</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">14/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">ALINE MORAES TRACZNSKI</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">14/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 27</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">15/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">TURMA 15</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 37,50</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">20/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">RICARDO BALATKA</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">20/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">AMANDA MOTTA</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">20/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 03</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">21/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 27</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">21/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">GABRIEL MACHADO DAMACENO</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">21/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DEBORA DE FATIMA BARTOVSKI</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">21/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">RITA DE CASSIA DRIESSEN</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">22/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">TURMA 15</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 37,50</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">22/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">PAULO BRIK</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">22/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">POLIANA BOTTEGA</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">23/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">MANOELA NORDIO</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">23/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DANIEL ANTONIO DA SILVA</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">23/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">LUIZ GUSTAVO FEIX</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">23/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 21</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">23/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">FERDINANDO SERGIO BARCARO</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">24/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 16</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">24/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">MATHEUS ALVARENGA FRANÇA</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">24/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">GABRIEL KMITA CAREGNATO - ALEMÃO</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">24/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 09</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">24/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">PRICILA DOS SANTOS</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">24/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 06</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">24/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">ARTHUR HENRIQUE LENZ</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">27/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">R</td>
+<td align="left" width="348" colspan="1" class="datap">MATHEUS HEINZ</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">27/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">ARTHUR HENRIQUE LENZ</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">27/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">PEDRO HENRIQUE FRANÇA MACENO</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">27/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">TURMA 17</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">27/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">R</td>
+<td align="left" width="348" colspan="1" class="datap">PEDRO HENRIQUE FRANÇA MACENO</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">28/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 27</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">28/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 04</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">29/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 02</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">29/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">R</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 24</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">29/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">R</td>
+<td align="left" width="348" colspan="1" class="datai">NADYESA NIEWINSKI DE MATTOS</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">30/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">LUIZ GUSTAVO FEIX</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">30/06/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">EDIMO DEBARBA JUNIOR</td>
+<td align="left" width="148" colspan="1" class="datai">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datai">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">30/06/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">ARTHUR HENRIQUE LENZ</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">BRUNA HENKEL DRIESSEN</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="center" width="78" colspan="1" class="breakTotal"></td>
+<td align="center" width="38" colspan="1" class="breakTotal"></td>
+<td align="center" width="348" colspan="1" class="breakTotal"></td>
+<td align="center" width="148" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="98" colspan="1" class="breakTotal">R$ 1.912,50</td>
+</tr>
+<tr>
+<td align="center" width="78" colspan="1" class="total"></td>
+<td align="center" width="38" colspan="1" class="total"></td>
+<td align="center" width="348" colspan="1" class="total"></td>
+<td align="center" width="148" colspan="1" class="total"></td>
+<td align="center" width="198" colspan="1" class="total"></td>
+<td align="right" width="98" colspan="1" class="total">R$ 1.912,50</td>
+</tr>
+</table>
+</html>

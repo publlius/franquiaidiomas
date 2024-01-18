@@ -1,0 +1,726 @@
+<html>
+<style>
+    .title
+    {
+        font-family: Helvetica;
+        color: #000000;
+        background-color: #dbdbdb;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-weight: bold;
+    }
+    .datap
+    {
+        font-family: Arial;
+        color: #333333;
+        background-color: #f0f0f0;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+    }
+    .datai
+    {
+        font-family: Arial;
+        color: #333333;
+        background-color: #ffffff;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+    }
+    .header
+    {
+        font-family: Helvetica;
+        color: #5a5a5a;
+        background-color: #6B6B6B;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 16pt;
+        font-weight: bold;
+    }
+    .footer
+    {
+        font-family: Helvetica;
+        color: #5a5a5a;
+        background-color: #A3A3A3;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-weight: bold;
+    }
+    .break
+    {
+        font-family: Helvetica;
+        color: #ffffff;
+        background-color: #9a9a9a;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-weight: bold;
+    }
+    .total
+    {
+        font-family: Helvetica;
+        color: #000000;
+        background-color: #c7c7c7;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-style: italic;
+    }
+    .breakTotal
+    {
+        font-family: Helvetica;
+        color: #000000;
+        background-color: #c6c8d0;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-style: italic;
+    }
+</style>
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse">
+<tr>
+<td align="left" width="78" colspan="1" class="title">Data</td>
+<td align="left" width="38" colspan="1" class="title">Tipo</td>
+<td align="left" width="348" colspan="1" class="title">Turma/Aluno</td>
+<td align="left" width="148" colspan="1" class="title">Unidade</td>
+<td align="left" width="198" colspan="1" class="title">Professor</td>
+<td align="right" width="98" colspan="1" class="title">Valor</td>
+</tr>
+<tr><td align="left" width="918" colspan="6" class="break">Luana Maria Dalla Costa</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">01/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">THIAGO MOLON</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">01/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">EXPERIMENTAL </td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 15,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">01/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">TURMA 35</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">01/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">YASMIN ROSA ALVES </td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">01/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">RAFAEL FENILI</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">02/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 19</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">02/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">ISADORA VANZ SCHWAIGA</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">02/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">PEDRO HENRIQUE REBELATTO</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">04/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">LEONARDO HETVINO LOOF</td>
+<td align="left" width="148" colspan="1" class="datai">FRAIBURGO</td>
+<td align="left" width="198" colspan="1" class="datai">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">04/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">HENRIQUE WUNSCH ROSTIROLLA</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">04/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 37</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">05/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 52</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">05/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 21</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">05/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">BIANCA PARIZOTO </td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">05/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 02</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">05/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">LETÍCIA BASSO PASA</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">06/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 64</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">06/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">JOVANA ZONTA REGINATO</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">06/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">TURMA 42</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">06/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 10</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">07/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">MICHAEL DEON </td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">07/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 03 </td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">07/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">LAURA CARBONI</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">09/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 19</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">JÉSSICA DRECHMER</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 32</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 45,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">LUZIA VERONA</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">12/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">LETÍCIA BASSO PASA</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">12/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">GIOVANI MATTANA</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">12/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">FLAVIA WEISHEIMER</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">12/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 57</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">12/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 21</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">12/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">EXPERIMENTAL </td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">13/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 44</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">13/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">GUSTAVO DE MORAES </td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">13/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">ALEXANDRA FILIPETO CALLIARI</td>
+<td align="left" width="148" colspan="1" class="datap">FRAIBURGO</td>
+<td align="left" width="198" colspan="1" class="datap">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">13/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 64</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">13/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 42</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">14/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">SILLVIA GOULART DA SILVEIRA</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">14/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">LAURA CARBONI</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">18/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 13</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">18/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">ALESSANDRA ROSSI GIRIOLI</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">18/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">TURMA 25</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">18/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">MEGHAN BRESSAN DEL AGUILA (INDIVIDUAL)</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 45,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">19/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 42</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">19/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 32</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">20/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 64</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">20/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">KELVYN BERNARDI</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">20/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DANIEL ZONTA REGINATO</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">20/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">WESLLEY GEOFFER PERUSSO BORGES </td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">22/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">R</td>
+<td align="left" width="348" colspan="1" class="datai">SÉRGIO GOMES MACIEL </td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">22/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">NAIANE ALICE APARECIDA BROZINGA</td>
+<td align="left" width="148" colspan="1" class="datap">CAÇADOR</td>
+<td align="left" width="198" colspan="1" class="datap">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">22/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">JULIO SÉRGIO ZAGO GOMES</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">22/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">TAIMARA ANTUNES DOS SANTOS (INDIVIDUAL)</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">22/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">LUCIANE LAUX</td>
+<td align="left" width="148" colspan="1" class="datai">FRAIBURGO</td>
+<td align="left" width="198" colspan="1" class="datai">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">22/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">AMANDA CAROLINE SCHULER</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">22/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">FRANCIANE BISOL</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">23/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 24</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">23/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 34</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">23/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 19</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">23/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">CAROLINA CAUS GONÇALVES</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">23/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">BRUNO ALVES DA SILVA </td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">25/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">R</td>
+<td align="left" width="348" colspan="1" class="datai">LAURA CARBONI</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">25/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 25</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">25/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">JOELMA FERNANDA PAZ DE OLIVEIRA</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">25/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">EXPERIMENTAL </td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 15,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">25/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">JÉSSICA DRECHMER</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">26/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 21</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">26/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 14</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 45,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">26/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">GIOVANI MATTANA</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">26/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">BIANCA PARIZOTO </td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">27/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 64</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">27/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">TURMA 04</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">27/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">EXPERIMENTAL </td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 15,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">27/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">GUSTAVO DE MORAES </td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="center" width="78" colspan="1" class="breakTotal"></td>
+<td align="center" width="38" colspan="1" class="breakTotal"></td>
+<td align="center" width="348" colspan="1" class="breakTotal"></td>
+<td align="center" width="148" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="98" colspan="1" class="breakTotal">R$ 2.250,00</td>
+</tr>
+<tr>
+<td align="center" width="78" colspan="1" class="total"></td>
+<td align="center" width="38" colspan="1" class="total"></td>
+<td align="center" width="348" colspan="1" class="total"></td>
+<td align="center" width="148" colspan="1" class="total"></td>
+<td align="center" width="198" colspan="1" class="total"></td>
+<td align="right" width="98" colspan="1" class="total">R$ 2.250,00</td>
+</tr>
+</table>
+</html>

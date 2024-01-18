@@ -1,0 +1,1920 @@
+<html>
+<style>
+    .title
+    {
+        font-family: Helvetica;
+        color: #000000;
+        background-color: #dbdbdb;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-weight: bold;
+    }
+    .datap
+    {
+        font-family: Arial;
+        color: #333333;
+        background-color: #f0f0f0;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+    }
+    .datai
+    {
+        font-family: Arial;
+        color: #333333;
+        background-color: #ffffff;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+    }
+    .header
+    {
+        font-family: Helvetica;
+        color: #5a5a5a;
+        background-color: #6B6B6B;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 16pt;
+        font-weight: bold;
+    }
+    .footer
+    {
+        font-family: Helvetica;
+        color: #5a5a5a;
+        background-color: #A3A3A3;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-weight: bold;
+    }
+    .break
+    {
+        font-family: Helvetica;
+        color: #ffffff;
+        background-color: #9a9a9a;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-weight: bold;
+    }
+    .total
+    {
+        font-family: Helvetica;
+        color: #000000;
+        background-color: #c7c7c7;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-style: italic;
+    }
+    .breakTotal
+    {
+        font-family: Helvetica;
+        color: #000000;
+        background-color: #c6c8d0;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-style: italic;
+    }
+</style>
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse">
+<tr>
+<td align="left" width="58" colspan="1" class="title">Id</td>
+<td align="left" width="298" colspan="1" class="title">Aluno</td>
+<td align="left" width="98" colspan="1" class="title">Idioma</td>
+<td align="right" width="68" colspan="1" class="title"></td>
+<td align="left" width="148" colspan="1" class="title">Plano</td>
+<td align="right" width="68" colspan="1" class="title">R$ Plano</td>
+<td align="left" width="198" colspan="1" class="title">Situação</td>
+</tr>
+<tr><td align="left" width="948" colspan="7" class="break">Fraiburgo </td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">170</td>
+<td align="left" width="298" colspan="1" class="datai">teste menoir</td>
+<td align="left" width="98" colspan="1" class="datai">Espanhol</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Turma - CDI</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 230,00</td>
+<td align="left" width="198" colspan="1" class="datai"></td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">987</td>
+<td align="left" width="298" colspan="1" class="datap">Vera Lucia Santos Cerqueira</td>
+<td align="left" width="98" colspan="1" class="datap">Alemão</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - INDIVIDUAL </td>
+<td align="right" width="68" colspan="1" class="datap">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1432</td>
+<td align="left" width="298" colspan="1" class="datai">Pedro Henrique de Mello Conte</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">Dupla </td>
+<td align="right" width="68" colspan="1" class="datai">R$ 160,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2109</td>
+<td align="left" width="298" colspan="1" class="datap">Renan Claudio dos Santos</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - TURMA</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2180</td>
+<td align="left" width="298" colspan="1" class="datai">Giovana Maria Marcondes Gonçalves</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - TURMA</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2262</td>
+<td align="left" width="298" colspan="1" class="datap">Karen Hany da Conceição</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - INDIVIDUAL </td>
+<td align="right" width="68" colspan="1" class="datap">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2281</td>
+<td align="left" width="298" colspan="1" class="datai">Enzo Gabriel da Luz</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - TURMA</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1737</td>
+<td align="left" width="298" colspan="1" class="datap">Valter Germano Behrens</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - INDIVIDUAL </td>
+<td align="right" width="68" colspan="1" class="datap">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2351</td>
+<td align="left" width="298" colspan="1" class="datai">Kathleen Felisbino</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - INDIVIDUAL </td>
+<td align="right" width="68" colspan="1" class="datai">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1834</td>
+<td align="left" width="298" colspan="1" class="datap">Alice Gregório</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - INDIVIDUAL </td>
+<td align="right" width="68" colspan="1" class="datap">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">992</td>
+<td align="left" width="298" colspan="1" class="datai">Alvaro Paolo Diaz Rojas</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - INDIVIDUAL FAMÍLIA</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 220,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1780</td>
+<td align="left" width="298" colspan="1" class="datap">Amanda Carminatti Perosa</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - INDIVIDUAL </td>
+<td align="right" width="68" colspan="1" class="datap">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1861</td>
+<td align="left" width="298" colspan="1" class="datai">Analu Buzzanelo</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - INDIVIDUAL </td>
+<td align="right" width="68" colspan="1" class="datai">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1163</td>
+<td align="left" width="298" colspan="1" class="datap">Beatriz Betioli de Carvalho </td>
+<td align="left" width="98" colspan="1" class="datap">Espanhol</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - INDIVIDUAL </td>
+<td align="right" width="68" colspan="1" class="datap">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1535</td>
+<td align="left" width="298" colspan="1" class="datai">Luiza Gabrielle Antunes de Lara</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - DUPLA FAMÍLIA</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1553</td>
+<td align="left" width="298" colspan="1" class="datap">Bruna Vieira </td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - DUPLA</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 190,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">136</td>
+<td align="left" width="298" colspan="1" class="datai">Carina de Oliveira Antunes</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - DUPLA FAMÍLIA</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">565</td>
+<td align="left" width="298" colspan="1" class="datap">Cassiano Barzotto Kohlrausch</td>
+<td align="left" width="98" colspan="1" class="datap">Italiano</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - INDIVIDUAL FAMÍLIA</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 220,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1903</td>
+<td align="left" width="298" colspan="1" class="datai">Cláudio Moreira Santos Filho</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - INDIVIDUAL FAMÍLIA</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 220,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1551</td>
+<td align="left" width="298" colspan="1" class="datap">Daniel Nunes Volkart</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - INDIVIDUAL FAMÍLIA</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 380,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1931</td>
+<td align="left" width="298" colspan="1" class="datai">Davi de Oliveira Moreira Santos</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - DUPLA FAMÍLIA</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1943</td>
+<td align="left" width="298" colspan="1" class="datap">Maria Eduarda Borges de Oliveira</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - DUPLA FAMÍLIA</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1942</td>
+<td align="left" width="298" colspan="1" class="datai">Gabriela Borges de Oliveira</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - DUPLA FAMÍLIA</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">743</td>
+<td align="left" width="298" colspan="1" class="datap">Rafael Carlos  Rodrigues</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - INDIVIDUAL </td>
+<td align="right" width="68" colspan="1" class="datap">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1566</td>
+<td align="left" width="298" colspan="1" class="datai">Gisele Dian Borges</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - INDIVIDUAL FAMÍLIA</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 220,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1933</td>
+<td align="left" width="298" colspan="1" class="datap">Luiz Leandro dos Reis Fortaleza</td>
+<td align="left" width="98" colspan="1" class="datap">Francês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - INDIVIDUAL </td>
+<td align="right" width="68" colspan="1" class="datap">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1629</td>
+<td align="left" width="298" colspan="1" class="datai">Larissa Maria Silveira Pereira</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - INDIVIDUAL </td>
+<td align="right" width="68" colspan="1" class="datai">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">733</td>
+<td align="left" width="298" colspan="1" class="datap">Rafael Fagundes Nicoláo</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - INDIVIDUAL </td>
+<td align="right" width="68" colspan="1" class="datap">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1344</td>
+<td align="left" width="298" colspan="1" class="datai">Mateus Dallazem</td>
+<td align="left" width="98" colspan="1" class="datai">Francês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - INDIVIDUAL </td>
+<td align="right" width="68" colspan="1" class="datai">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">529</td>
+<td align="left" width="298" colspan="1" class="datap">Idione Fantinel</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - INDIVIDUAL </td>
+<td align="right" width="68" colspan="1" class="datap">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1272</td>
+<td align="left" width="298" colspan="1" class="datai">Hygo Breno Santos Araujo</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - INDIVIDUAL </td>
+<td align="right" width="68" colspan="1" class="datai">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1125</td>
+<td align="left" width="298" colspan="1" class="datap">Fabricio Miguel Novicki</td>
+<td align="left" width="98" colspan="1" class="datap">Francês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - INDIVIDUAL </td>
+<td align="right" width="68" colspan="1" class="datap">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">361</td>
+<td align="left" width="298" colspan="1" class="datai">Otávio José Peroza dos santos</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - DUPLA</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 190,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">356</td>
+<td align="left" width="298" colspan="1" class="datap">Isadora Kaiper</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - DUPLA</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 190,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1036</td>
+<td align="left" width="298" colspan="1" class="datai">Victor Fernandes Volkart</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - DUPLA FAMÍLIA</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1037</td>
+<td align="left" width="298" colspan="1" class="datap">Igor Fernandes Volkart</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - DUPLA FAMÍLIA</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">879</td>
+<td align="left" width="298" colspan="1" class="datai">Valentina Mattana Mendes</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - DUPLA FAMÍLIA</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">913</td>
+<td align="left" width="298" colspan="1" class="datap">Otavio Benke</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - DUPLA</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 190,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1980</td>
+<td align="left" width="298" colspan="1" class="datai">Pedro Mattana Mendes</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - DUPLA FAMÍLIA</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">991</td>
+<td align="left" width="298" colspan="1" class="datap">Miguel Gerber Rojas</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - TURMA FAMÍLIA</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 140,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">914</td>
+<td align="left" width="298" colspan="1" class="datai">Pedro Rambo</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - TURMA FAMÍLIA</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 140,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1370</td>
+<td align="left" width="298" colspan="1" class="datap">Ana Julia Spiering Dalla Rosa</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - TURMA</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1596</td>
+<td align="left" width="298" colspan="1" class="datai">Kaue Crestani  Kraemer</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - TURMA</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">910</td>
+<td align="left" width="298" colspan="1" class="datap">Miguel Eidt Kirchhoff</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - TURMA FAMÍLIA</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 140,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1957</td>
+<td align="left" width="298" colspan="1" class="datai">Eduarda Carioletti</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - DUPLA FAMÍLIA</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1594</td>
+<td align="left" width="298" colspan="1" class="datap">Leonardo Carioletti</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - DUPLA FAMÍLIA</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1844</td>
+<td align="left" width="298" colspan="1" class="datai">Luiz Augusto Zonta</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - INDIVIDUAL </td>
+<td align="right" width="68" colspan="1" class="datai">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1639</td>
+<td align="left" width="298" colspan="1" class="datap">Luciane Laux</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - INDIVIDUAL </td>
+<td align="right" width="68" colspan="1" class="datap">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">971</td>
+<td align="left" width="298" colspan="1" class="datai">Henrique José Pazini</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - INDIVIDUAL </td>
+<td align="right" width="68" colspan="1" class="datai">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1948</td>
+<td align="left" width="298" colspan="1" class="datap">Lucas Gabriel da Silva </td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - TURMA</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1053</td>
+<td align="left" width="298" colspan="1" class="datai">Gustavo do Nascimento Chiodi</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - INDIVIDUAL </td>
+<td align="right" width="68" colspan="1" class="datai">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1995</td>
+<td align="left" width="298" colspan="1" class="datap">Emanuelly Cherobin Zabloski</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - DUPLA</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 190,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1950</td>
+<td align="left" width="298" colspan="1" class="datai">Guilherme Cordova Soares</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - INDIVIDUAL </td>
+<td align="right" width="68" colspan="1" class="datai">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1492</td>
+<td align="left" width="298" colspan="1" class="datap">Mariana Patrícia Primon</td>
+<td align="left" width="98" colspan="1" class="datap">Francês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - INDIVIDUAL </td>
+<td align="right" width="68" colspan="1" class="datap">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">958</td>
+<td align="left" width="298" colspan="1" class="datai">Rose Bernadete Bittencourt da Silva </td>
+<td align="left" width="98" colspan="1" class="datai">Francês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - INDIVIDUAL </td>
+<td align="right" width="68" colspan="1" class="datai">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1225</td>
+<td align="left" width="298" colspan="1" class="datap">Vanessa Pereira Da Silva Santaella</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - INDIVIDUAL </td>
+<td align="right" width="68" colspan="1" class="datap">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1225</td>
+<td align="left" width="298" colspan="1" class="datai">Vanessa Pereira Da Silva Santaella</td>
+<td align="left" width="98" colspan="1" class="datai">Espanhol</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - INDIVIDUAL </td>
+<td align="right" width="68" colspan="1" class="datai">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1986</td>
+<td align="left" width="298" colspan="1" class="datap">Ana Flávia da Silva Dallazem</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - DUPLA FAMÍLIA</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1853</td>
+<td align="left" width="298" colspan="1" class="datai">Ana Júlia Dutra</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - DUPLA FAMÍLIA</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1944</td>
+<td align="left" width="298" colspan="1" class="datap">Laura Izabela de Matos</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - INDIVIDUAL </td>
+<td align="right" width="68" colspan="1" class="datap">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1993</td>
+<td align="left" width="298" colspan="1" class="datai">Eduarda Flesch</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - INDIVIDUAL </td>
+<td align="right" width="68" colspan="1" class="datai">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1524</td>
+<td align="left" width="298" colspan="1" class="datap">Ademilso Sitneski</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - INDIVIDUAL</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 320,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1692</td>
+<td align="left" width="298" colspan="1" class="datai">Davi Gabriel Borsoi</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - DUPLA FAMÍLIA</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1179</td>
+<td align="left" width="298" colspan="1" class="datap">Alana do Carmo Rodrigues</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - INDIVIDUAL </td>
+<td align="right" width="68" colspan="1" class="datap">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1691</td>
+<td align="left" width="298" colspan="1" class="datai">João Paulo Grando</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - DUPLA FAMÍLIA</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1660</td>
+<td align="left" width="298" colspan="1" class="datap">Yohana Maria Alves Rodrigues</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - DUPLA</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 190,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1219</td>
+<td align="left" width="298" colspan="1" class="datai">Érika Kelly  Cardozo</td>
+<td align="left" width="98" colspan="1" class="datai">Alemão</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - INDIVIDUAL </td>
+<td align="right" width="68" colspan="1" class="datai">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2499</td>
+<td align="left" width="298" colspan="1" class="datap">Éder Sandro da Silva</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - INDIVIDUAL </td>
+<td align="right" width="68" colspan="1" class="datap">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1049</td>
+<td align="left" width="298" colspan="1" class="datai">Giovanna Amaral Dall' Oglio Moraes </td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">DUPLA 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 205,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2537</td>
+<td align="left" width="298" colspan="1" class="datap">Gabriel Luís Poernbacher Rossi</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - DUPLA</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 190,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1790</td>
+<td align="left" width="298" colspan="1" class="datai">Geórgia Stockmann Bays</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - INDIVIDUAL </td>
+<td align="right" width="68" colspan="1" class="datai">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2557</td>
+<td align="left" width="298" colspan="1" class="datap">Gustavo Bitencourt Reinher</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">TURMA 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 185,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2551</td>
+<td align="left" width="298" colspan="1" class="datai">Enueli De Oliveira Oldeburg</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">INDIVIDUAL 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 260,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2549</td>
+<td align="left" width="298" colspan="1" class="datap">Leonardo Ferreira</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">TURMA 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 185,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2548</td>
+<td align="left" width="298" colspan="1" class="datai">Julia Poliana Rodrigues Alberti</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - TURMA</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">644</td>
+<td align="left" width="298" colspan="1" class="datap">Maria Julia Zabloski</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - INDIVIDUAL </td>
+<td align="right" width="68" colspan="1" class="datap">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1469</td>
+<td align="left" width="298" colspan="1" class="datai">Isabela Brandt Maciel</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - INDIVIDUAL</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 415,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2575</td>
+<td align="left" width="298" colspan="1" class="datap">Márcia Aparecida Tibes dos Santos</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - DUPLA FAMÍLIA</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2409</td>
+<td align="left" width="298" colspan="1" class="datai">Polpa Brasil</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - TURMA</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2580</td>
+<td align="left" width="298" colspan="1" class="datap">Isabela Fussiger Santos</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">DUPLA 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 205,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2082</td>
+<td align="left" width="298" colspan="1" class="datai">Arthur Rambo</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - TURMA</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2049</td>
+<td align="left" width="298" colspan="1" class="datap">Valentina de Oliveira Santos</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - DUPLA</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 190,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2038</td>
+<td align="left" width="298" colspan="1" class="datai">Helena Becker Kemp</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - DUPLA</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 190,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2107</td>
+<td align="left" width="298" colspan="1" class="datap">Jean de Moraes</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - DUPLA</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 190,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2109</td>
+<td align="left" width="298" colspan="1" class="datai">Renan Claudio dos Santos</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - TURMA</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2108</td>
+<td align="left" width="298" colspan="1" class="datap">Rafael Schweitzer</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - DUPLA</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 190,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2587</td>
+<td align="left" width="298" colspan="1" class="datai">Eloisa Moraes de Abreu</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - TURMA FAMÍLIA</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 140,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2588</td>
+<td align="left" width="298" colspan="1" class="datap">Isabella Moraes de Abreu</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - TURMA FAMÍLIA</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 140,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2593</td>
+<td align="left" width="298" colspan="1" class="datai">Evelin Tatiana peppes Scheffer </td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">TURMA 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 185,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1050</td>
+<td align="left" width="298" colspan="1" class="datap">Danielle Bragagnollo Martins</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">DUPLA 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 205,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2599</td>
+<td align="left" width="298" colspan="1" class="datai">Cristina Vargas</td>
+<td align="left" width="98" colspan="1" class="datai">Espanhol</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">INDIVIDUAL 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 260,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2597</td>
+<td align="left" width="298" colspan="1" class="datap">Kathleen do Nascimento de Oliveira</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">DUPLA 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 205,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2595</td>
+<td align="left" width="298" colspan="1" class="datai">Gustavo Santos Rohling</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">INDIVIDUAL 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 260,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2326</td>
+<td align="left" width="298" colspan="1" class="datap">Vitor Ribeiro Crardoso</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - INDIVIDUAL </td>
+<td align="right" width="68" colspan="1" class="datap">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2615</td>
+<td align="left" width="298" colspan="1" class="datai">Benício Minatto Petry</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">TURMA 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 185,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2129</td>
+<td align="left" width="298" colspan="1" class="datap">Jorge Eduardo Tibes Marcelino</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - TURMA</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">64</td>
+<td align="left" width="298" colspan="1" class="datai">Raphaela Menezes da Silveira</td>
+<td align="left" width="98" colspan="1" class="datai">Francês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - INDIVIDUAL </td>
+<td align="right" width="68" colspan="1" class="datai">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2157</td>
+<td align="left" width="298" colspan="1" class="datap">Bruna Biasiolo</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - INDIVIDUAL </td>
+<td align="right" width="68" colspan="1" class="datap">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2634</td>
+<td align="left" width="298" colspan="1" class="datai">Maria Eduarda Crestani Kraemer</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">TURMA FAMÍLIA 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 150,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2638</td>
+<td align="left" width="298" colspan="1" class="datap">Bernardo Maciel Amaral</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">DUPLA FAMÍLIA 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 185,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2679</td>
+<td align="left" width="298" colspan="1" class="datai">Estela da Rocha Moreira</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">DUPLA FAMÍLIA 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 185,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2681</td>
+<td align="left" width="298" colspan="1" class="datap">Adelaide da Rocha Moreira</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">DUPLA FAMÍLIA 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 185,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2688</td>
+<td align="left" width="298" colspan="1" class="datai">Isadora de Moraes Barbosa </td>
+<td align="left" width="98" colspan="1" class="datai">Espanhol</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">INDIVIDUAL 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 260,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2695</td>
+<td align="left" width="298" colspan="1" class="datap">Bárbara de Souza Martins</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">DUPLA 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 205,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2165</td>
+<td align="left" width="298" colspan="1" class="datai">Erick Gabriel Terres Borga</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - INDIVIDUAL </td>
+<td align="right" width="68" colspan="1" class="datai">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datai">AFASTADO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1051</td>
+<td align="left" width="298" colspan="1" class="datap">Henrique Giehl Heydt </td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - INDIVIDUAL </td>
+<td align="right" width="68" colspan="1" class="datap">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2723</td>
+<td align="left" width="298" colspan="1" class="datai">Bárbara Bonetti Casagrande</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">INDIVIDUAL 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 260,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2719</td>
+<td align="left" width="298" colspan="1" class="datap">Rafaela Mozzaquattro Machado</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">DUPLA FAMÍLIA 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 185,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2720</td>
+<td align="left" width="298" colspan="1" class="datai">Bruno Borges Kieling</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">DUPLA FAMÍLIA 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 185,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2721</td>
+<td align="left" width="298" colspan="1" class="datap">Nicolas Mozzaquattro Kieling</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">INDIVIDUAL FAMÍLIA 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 235,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2727</td>
+<td align="left" width="298" colspan="1" class="datai">Laura Tides Franciosi</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">TURMA 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 185,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2732</td>
+<td align="left" width="298" colspan="1" class="datap">Maria Eduarda Muniz </td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">INDIVIDUAL 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 260,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2684</td>
+<td align="left" width="298" colspan="1" class="datai">Otávio Biscaro Borges</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">DUPLA FAMÍLIA 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 185,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2740</td>
+<td align="left" width="298" colspan="1" class="datap">Lívia Bartolomeu da Cunha</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">DUPLA FAMÍLIA 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 185,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2741</td>
+<td align="left" width="298" colspan="1" class="datai">Isabela Bartolomeu da Cunha</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">DUPLA FAMÍLIA 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 185,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2743</td>
+<td align="left" width="298" colspan="1" class="datap">Tatiane Aparecida Bartolomeu</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">DUPLA FAMÍLIA 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 185,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2774</td>
+<td align="left" width="298" colspan="1" class="datai">Alice Vaz</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">TURMA 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 185,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2173</td>
+<td align="left" width="298" colspan="1" class="datap">Guilherme Otávio Gonçalves Prates</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - DUPLA</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 190,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2179</td>
+<td align="left" width="298" colspan="1" class="datai">Dalmo Paim de Oliveira</td>
+<td align="left" width="98" colspan="1" class="datai">Alemão</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - INDIVIDUAL </td>
+<td align="right" width="68" colspan="1" class="datai">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2705</td>
+<td align="left" width="298" colspan="1" class="datap">Nathalia Zoppi</td>
+<td align="left" width="98" colspan="1" class="datap">Italiano</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">INDIVIDUAL 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 260,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2761</td>
+<td align="left" width="298" colspan="1" class="datai">Scarlet Rubhy Escobar Quinto</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">TURMA 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 185,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2765</td>
+<td align="left" width="298" colspan="1" class="datap">Maria Sofia Farias Trauthman</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">TURMA 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 185,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2788</td>
+<td align="left" width="298" colspan="1" class="datai">Daniel Pereira</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">INDIVIDUAL 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 260,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2791</td>
+<td align="left" width="298" colspan="1" class="datap">Brais Francisco Pittol</td>
+<td align="left" width="98" colspan="1" class="datap">Italiano</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">DUPLA FAMÍLIA 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 185,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2790</td>
+<td align="left" width="298" colspan="1" class="datai">Dulcineide Maria Pisetta Pittol</td>
+<td align="left" width="98" colspan="1" class="datai">Italiano</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">DUPLA FAMÍLIA 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 185,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2792</td>
+<td align="left" width="298" colspan="1" class="datap">Rosane Miranda Assumpcao de Paula </td>
+<td align="left" width="98" colspan="1" class="datap">Espanhol</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">INDIVIDUAL 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 260,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1945</td>
+<td align="left" width="298" colspan="1" class="datai">Lidiane Mattana</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - INDIVIDUAL </td>
+<td align="right" width="68" colspan="1" class="datai">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2800</td>
+<td align="left" width="298" colspan="1" class="datap">Marcelo Jose Vieira</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">INDIVIDUAL 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 260,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2801</td>
+<td align="left" width="298" colspan="1" class="datai">Lorenza Teza Schumacher</td>
+<td align="left" width="98" colspan="1" class="datai">Italiano</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">INDIVIDUAL 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 450,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2797</td>
+<td align="left" width="298" colspan="1" class="datap">Vitor Alexandre Pahl</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">DUPLA FAMÍLIA 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 185,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2805</td>
+<td align="left" width="298" colspan="1" class="datai">Luiz Antonio Pahl Neto</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">INDIVIDUAL FAMÍLIA 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 235,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2806</td>
+<td align="left" width="298" colspan="1" class="datap">Matheus Balestrin</td>
+<td align="left" width="98" colspan="1" class="datap">Italiano</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">INDIVIDUAL 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 260,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2209</td>
+<td align="left" width="298" colspan="1" class="datai">Guilherme Tasca Hoffmann</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - DUPLA</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 190,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2229</td>
+<td align="left" width="298" colspan="1" class="datap">Tiago Augusto Almeida Miglioli</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - TURMA</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2235</td>
+<td align="left" width="298" colspan="1" class="datai">Caio Olegário de Castro Firmes da Silveira</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - DUPLA FAMÍLIA</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2236</td>
+<td align="left" width="298" colspan="1" class="datap">Tarcísio Olegário de Castro Firmes da Silveira</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - INDIVIDUAL FAMÍLIA</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 220,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2803</td>
+<td align="left" width="298" colspan="1" class="datai">Jaqueline Raquel da Silva</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">INDIVIDUAL 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 260,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2818</td>
+<td align="left" width="298" colspan="1" class="datap">Fabiany de Sousa Marins</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">INDIVIDUAL 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 260,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2820</td>
+<td align="left" width="298" colspan="1" class="datai">Tatiana Soares De Siqueira</td>
+<td align="left" width="98" colspan="1" class="datai">Espanhol</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">INDIVIDUAL 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 450,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">1633</td>
+<td align="left" width="298" colspan="1" class="datap">Julianna Menezes da Silveira</td>
+<td align="left" width="98" colspan="1" class="datap">Italiano</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - INDIVIDUAL FAMÍLIA</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 220,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2838</td>
+<td align="left" width="298" colspan="1" class="datai">Helena Fiorelli</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">TURMA 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 185,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2839</td>
+<td align="left" width="298" colspan="1" class="datap">Marco Antônio Rodrigues Buchweitz</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">INDIVIDUAL 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 260,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">418</td>
+<td align="left" width="298" colspan="1" class="datai">Stefanny Stefanes </td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - INDIVIDUAL </td>
+<td align="right" width="68" colspan="1" class="datai">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2856</td>
+<td align="left" width="298" colspan="1" class="datap">Bruno Grando</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">DUPLA 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 205,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2849</td>
+<td align="left" width="298" colspan="1" class="datai">Nicollas Michael Semam Lascoski</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">DUPLA 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 205,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2851</td>
+<td align="left" width="298" colspan="1" class="datap">Eduarda Caregnato Bassani </td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">TURMA 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 185,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2857</td>
+<td align="left" width="298" colspan="1" class="datai">Maria Fernanda Brandalise</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">TURMA 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 185,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2858</td>
+<td align="left" width="298" colspan="1" class="datap">Théo Ferreira Vargas</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">TURMA 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 185,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">1863</td>
+<td align="left" width="298" colspan="1" class="datai">Alexandra Felipeto Calliari</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - INDIVIDUAL </td>
+<td align="right" width="68" colspan="1" class="datai">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">883</td>
+<td align="left" width="298" colspan="1" class="datap">Matheus Techio</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - TURMA FAMÍLIA</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 140,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2572</td>
+<td align="left" width="298" colspan="1" class="datai">Ayla Devalieri Miranda</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">TURMA 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 185,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2163</td>
+<td align="left" width="298" colspan="1" class="datap">Kauan Oliveira Schwenter</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">INDIVIDUAL 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 260,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2282</td>
+<td align="left" width="298" colspan="1" class="datai">Anthonela Kristhine Moraski</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - DUPLA</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 190,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2291</td>
+<td align="left" width="298" colspan="1" class="datap">Maria Rafaela Brugnara</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - INDIVIDUAL </td>
+<td align="right" width="68" colspan="1" class="datap">R$ 240,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2296</td>
+<td align="left" width="298" colspan="1" class="datai">Ana Claudia Chechi</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - DUPLA FAMÍLIA</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2298</td>
+<td align="left" width="298" colspan="1" class="datap">Condemir Luiz Dalagnol</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - DUPLA FAMÍLIA</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2873</td>
+<td align="left" width="298" colspan="1" class="datai">Maria Helena Dutra</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">DUPLA 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 205,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2892</td>
+<td align="left" width="298" colspan="1" class="datap">Pedro Henrique Mello da Costa </td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">TURMA 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 185,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2337</td>
+<td align="left" width="298" colspan="1" class="datai">Felipe Barbosa Araldi</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">INDIVIDUAL 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 260,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2316</td>
+<td align="left" width="298" colspan="1" class="datap">Alice Lazzarotto</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - DUPLA</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 190,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2905</td>
+<td align="left" width="298" colspan="1" class="datai">Camilli Bianca dos Santos</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">DUPLA 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 205,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2904</td>
+<td align="left" width="298" colspan="1" class="datap">Murilo Altair Marcon Gonçalves</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">TURMA 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 185,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2899</td>
+<td align="left" width="298" colspan="1" class="datai">Caroline Reinaldi Groth </td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">INDIVIDUAL 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 260,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2920</td>
+<td align="left" width="298" colspan="1" class="datap">Lucas Balestrin</td>
+<td align="left" width="98" colspan="1" class="datap">Espanhol</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">INDIVIDUAL FAMÍLIA 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 415,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2926</td>
+<td align="left" width="298" colspan="1" class="datai">Heloisa Xavier Moresco</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">DUPLA 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 205,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2880</td>
+<td align="left" width="298" colspan="1" class="datap">Wesley Lopes Batista</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">INDIVIDUAL 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 260,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2733</td>
+<td align="left" width="298" colspan="1" class="datai">Franciele Cardoso de Vargas</td>
+<td align="left" width="98" colspan="1" class="datai">Espanhol</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">INDIVIDUAL 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 260,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2929</td>
+<td align="left" width="298" colspan="1" class="datap">Fernando Ramos</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">DUPLA 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 205,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2939</td>
+<td align="left" width="298" colspan="1" class="datai">Larissa Prates Viero</td>
+<td align="left" width="98" colspan="1" class="datai">Italiano</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">INDIVIDUAL 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 260,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2943</td>
+<td align="left" width="298" colspan="1" class="datap">ADELIA APARECIDA PIERDONA BALESTRIN</td>
+<td align="left" width="98" colspan="1" class="datap">Espanhol</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">INDIVIDUAL FAMÍLIA 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 415,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2950</td>
+<td align="left" width="298" colspan="1" class="datai">Pedro Florentino</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">TURMA 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 185,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2380</td>
+<td align="left" width="298" colspan="1" class="datap">Tiago Moro</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">INDIVIDUAL 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 260,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2375</td>
+<td align="left" width="298" colspan="1" class="datai">Alice Belotto</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">TURMA 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 185,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2371</td>
+<td align="left" width="298" colspan="1" class="datap">João Miguel Marcondes da Silveira</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - TURMA FAMÍLIA</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 140,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2087</td>
+<td align="left" width="298" colspan="1" class="datai">Maria Eduarda Couto dos Santos</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - TURMA</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2961</td>
+<td align="left" width="298" colspan="1" class="datap">Patricia Bongiovani </td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">DUPLA FAMÍLIA 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 185,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">15</td>
+<td align="left" width="298" colspan="1" class="datai">Ademir Conradi</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">INDIVIDUAL 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 260,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2392</td>
+<td align="left" width="298" colspan="1" class="datap">Samuel Macedo</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">TURMA 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 185,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2408</td>
+<td align="left" width="298" colspan="1" class="datai">Maristela Aparecida Morais Mateus</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">DUPLA 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 205,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2394</td>
+<td align="left" width="298" colspan="1" class="datap">Wanderson da Silveira</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">INDIVIDUAL FAMÍLIA 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 235,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">3034</td>
+<td align="left" width="298" colspan="1" class="datai">Emlyn Telma Gonçalves  Smaniotto </td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">DUPLA 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 205,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">3042</td>
+<td align="left" width="298" colspan="1" class="datap">Caroline Vaz</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">INDIVIDUAL 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 260,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">3045</td>
+<td align="left" width="298" colspan="1" class="datai">Laura Siqueira de Lima </td>
+<td align="left" width="98" colspan="1" class="datai">Espanhol</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">INDIVIDUAL FAMÍLIA 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 415,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">3052</td>
+<td align="left" width="298" colspan="1" class="datap">Rafael Borges</td>
+<td align="left" width="98" colspan="1" class="datap">Espanhol</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">INDIVIDUAL FAMÍLIA 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 235,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2696</td>
+<td align="left" width="298" colspan="1" class="datai">Taís Passarin</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">INDIVIDUAL 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 260,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2410</td>
+<td align="left" width="298" colspan="1" class="datap">Rafaela Bolsani</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">CORRETO - DUPLA</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 325,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2908</td>
+<td align="left" width="298" colspan="1" class="datai">Gustavo Benincá Vizolli </td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">DUPLA 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 205,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2883</td>
+<td align="left" width="298" colspan="1" class="datap">Daiane de Almeida Ferrari </td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">TURMA 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 185,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2980</td>
+<td align="left" width="298" colspan="1" class="datai">Laura Araldi </td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">TURMA 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 185,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">3064</td>
+<td align="left" width="298" colspan="1" class="datap">Carolina do Nascimento Longhi</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">INDIVIDUAL 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 260,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2820</td>
+<td align="left" width="298" colspan="1" class="datai">Tatiana Soares De Siqueira</td>
+<td align="left" width="98" colspan="1" class="datai">Italiano</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">INDIVIDUAL FAMÍLIA 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 415,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">3065</td>
+<td align="left" width="298" colspan="1" class="datap">Kaiky Dalagnol</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">TURMA 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 185,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">3067</td>
+<td align="left" width="298" colspan="1" class="datai">Julia Rafaelly dos Santos Zink</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">TURMA 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 185,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">3066</td>
+<td align="left" width="298" colspan="1" class="datap">Kayla Zanivan de Deus </td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">TURMA 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 185,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">3069</td>
+<td align="left" width="298" colspan="1" class="datai">NATÁLIA ALVES CRESTANI</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">TURMA 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 185,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">2411</td>
+<td align="left" width="298" colspan="1" class="datap">Stefani Hammes de Oliveira Molin</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">DUPLA 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 350,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">2123</td>
+<td align="left" width="298" colspan="1" class="datai">Thiago Techio</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">CORRETO - DUPLA FAMÍLIA</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 170,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datap">3071</td>
+<td align="left" width="298" colspan="1" class="datap">Thaís Aparecida Ferreira</td>
+<td align="left" width="98" colspan="1" class="datap">Inglês</td>
+<td align="right" width="68" colspan="1" class="datap">Ativo</td>
+<td align="left" width="148" colspan="1" class="datap">INDIVIDUAL 2023</td>
+<td align="right" width="68" colspan="1" class="datap">R$ 260,00</td>
+<td align="left" width="198" colspan="1" class="datap">ATIVO</td>
+</tr>
+<tr>
+<td align="left" width="58" colspan="1" class="datai">100</td>
+<td align="left" width="298" colspan="1" class="datai">Giovana Perazzoli</td>
+<td align="left" width="98" colspan="1" class="datai">Inglês</td>
+<td align="right" width="68" colspan="1" class="datai">Ativo</td>
+<td align="left" width="148" colspan="1" class="datai">DUPLA 2023</td>
+<td align="right" width="68" colspan="1" class="datai">R$ 205,00</td>
+<td align="left" width="198" colspan="1" class="datai">ATIVO</td>
+</tr>
+<tr>
+<td align="center" width="58" colspan="1" class="breakTotal"></td>
+<td align="center" width="298" colspan="1" class="breakTotal"></td>
+<td align="center" width="98" colspan="1" class="breakTotal"></td>
+<td align="center" width="68" colspan="1" class="breakTotal"></td>
+<td align="center" width="148" colspan="1" class="breakTotal"></td>
+<td align="right" width="68" colspan="1" class="breakTotal">R$ 43.350,00</td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+</tr>
+<tr>
+<td align="center" width="58" colspan="1" class="total"></td>
+<td align="center" width="298" colspan="1" class="total"></td>
+<td align="center" width="98" colspan="1" class="total"></td>
+<td align="center" width="68" colspan="1" class="total"></td>
+<td align="center" width="148" colspan="1" class="total"></td>
+<td align="right" width="68" colspan="1" class="total">R$ 43.350,00</td>
+<td align="center" width="198" colspan="1" class="total"></td>
+</tr>
+</table>
+</html>

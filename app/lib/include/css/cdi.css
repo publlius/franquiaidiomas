@@ -1,0 +1,10 @@
+span#div_cor {
+    height: 29px !important;
+    width: 29px;
+    display: block;
+    border: 1px solid lightgrey;
+}
+
+[page-name="AgendaProfessorForm"] form .tformrow:nth-child(8) .fb-inline-field-container {
+    width: 100%;
+}

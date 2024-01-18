@@ -1,0 +1,616 @@
+<html>
+<style>
+    .title
+    {
+        font-family: Helvetica;
+        color: #000000;
+        background-color: #dbdbdb;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-weight: bold;
+    }
+    .datap
+    {
+        font-family: Arial;
+        color: #333333;
+        background-color: #f0f0f0;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+    }
+    .datai
+    {
+        font-family: Arial;
+        color: #333333;
+        background-color: #ffffff;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+    }
+    .header
+    {
+        font-family: Helvetica;
+        color: #5a5a5a;
+        background-color: #6B6B6B;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 16pt;
+        font-weight: bold;
+    }
+    .footer
+    {
+        font-family: Helvetica;
+        color: #5a5a5a;
+        background-color: #A3A3A3;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-weight: bold;
+    }
+    .break
+    {
+        font-family: Helvetica;
+        color: #ffffff;
+        background-color: #9a9a9a;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-weight: bold;
+    }
+    .total
+    {
+        font-family: Helvetica;
+        color: #000000;
+        background-color: #c7c7c7;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-style: italic;
+    }
+    .breakTotal
+    {
+        font-family: Helvetica;
+        color: #000000;
+        background-color: #c6c8d0;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 10pt;
+        font-style: italic;
+    }
+</style>
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse">
+<tr>
+<td align="left" width="78" colspan="1" class="title">Data</td>
+<td align="left" width="38" colspan="1" class="title">Tipo</td>
+<td align="left" width="348" colspan="1" class="title">Turma/Aluno</td>
+<td align="left" width="148" colspan="1" class="title">Unidade</td>
+<td align="left" width="198" colspan="1" class="title">Professor</td>
+<td align="right" width="98" colspan="1" class="title">Valor</td>
+</tr>
+<tr><td align="left" width="918" colspan="6" class="break">André Benker</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">ALINE BENDER </td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">ANDRÉ BENKER</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">EXPERIMENTAL </td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">ANDRÉ BENKER</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 36</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">ANDRÉ BENKER</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="center" width="78" colspan="1" class="breakTotal"></td>
+<td align="center" width="38" colspan="1" class="breakTotal"></td>
+<td align="center" width="348" colspan="1" class="breakTotal"></td>
+<td align="center" width="148" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="98" colspan="1" class="breakTotal">R$ 75,00</td>
+</tr>
+<tr><td align="left" width="918" colspan="6" class="break">Carla Moro Baldissera</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">R</td>
+<td align="left" width="348" colspan="1" class="datap">FRANCIANE BISOL</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">CARLA MORO BALDISSERA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">R</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 09</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">CARLA MORO BALDISSERA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 12,50</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 10</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">CARLA MORO BALDISSERA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">TAILANE APARECIDA LIRA</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">CARLA MORO BALDISSERA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 47</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">CARLA MORO BALDISSERA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 09</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">CARLA MORO BALDISSERA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="center" width="78" colspan="1" class="breakTotal"></td>
+<td align="center" width="38" colspan="1" class="breakTotal"></td>
+<td align="center" width="348" colspan="1" class="breakTotal"></td>
+<td align="center" width="148" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="98" colspan="1" class="breakTotal">R$ 137,50</td>
+</tr>
+<tr><td align="left" width="918" colspan="6" class="break">Fabiana de Oliveira Molina</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">NAILA ROBERTA MACCARI (INDIVIDUAL)</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">FABIANA DE OLIVEIRA MOLINA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="center" width="78" colspan="1" class="breakTotal"></td>
+<td align="center" width="38" colspan="1" class="breakTotal"></td>
+<td align="center" width="348" colspan="1" class="breakTotal"></td>
+<td align="center" width="148" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="98" colspan="1" class="breakTotal">R$ 30,00</td>
+</tr>
+<tr><td align="left" width="918" colspan="6" class="break">Francieli Belotto</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">EXPERIMENTAL </td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 41</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">CLARICE SALETE BASEGGIO SIMONETTO </td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">FRANCIELI BELOTTO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="center" width="78" colspan="1" class="breakTotal"></td>
+<td align="center" width="38" colspan="1" class="breakTotal"></td>
+<td align="center" width="348" colspan="1" class="breakTotal"></td>
+<td align="center" width="148" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="98" colspan="1" class="breakTotal">R$ 75,00</td>
+</tr>
+<tr><td align="left" width="918" colspan="6" class="break">João Pedro Molon Adada</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 25</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">JOÃO PEDRO MOLON ADADA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">R</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 11</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">JOÃO PEDRO MOLON ADADA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 12,50</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 01</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">JOÃO PEDRO MOLON ADADA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">R</td>
+<td align="left" width="348" colspan="1" class="datai">BRUNA DOS SANTOS </td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">JOÃO PEDRO MOLON ADADA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 37,50</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">R</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 76</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">JOÃO PEDRO MOLON ADADA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 11</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">JOÃO PEDRO MOLON ADADA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">MICHELE CRISTAINI GUBIANE</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">JOÃO PEDRO MOLON ADADA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="center" width="78" colspan="1" class="breakTotal"></td>
+<td align="center" width="38" colspan="1" class="breakTotal"></td>
+<td align="center" width="348" colspan="1" class="breakTotal"></td>
+<td align="center" width="148" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="98" colspan="1" class="breakTotal">R$ 175,00</td>
+</tr>
+<tr><td align="left" width="918" colspan="6" class="break">Kevyn Francisco Klein</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">HENRIQUE WUNSCH ROSTIROLLA</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">KEVYN FRANCISCO KLEIN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">TURMA 21</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">KEVYN FRANCISCO KLEIN</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 13</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">KEVYN FRANCISCO KLEIN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">THIAGO MIGUEL GIBBINI</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">KEVYN FRANCISCO KLEIN</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="center" width="78" colspan="1" class="breakTotal"></td>
+<td align="center" width="38" colspan="1" class="breakTotal"></td>
+<td align="center" width="348" colspan="1" class="breakTotal"></td>
+<td align="center" width="148" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="98" colspan="1" class="breakTotal">R$ 100,00</td>
+</tr>
+<tr><td align="left" width="918" colspan="6" class="break">Loivani Venturin</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">NATALIA CONCHI DA SILVA</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">LOIVANI VENTURIN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="center" width="78" colspan="1" class="breakTotal"></td>
+<td align="center" width="38" colspan="1" class="breakTotal"></td>
+<td align="center" width="348" colspan="1" class="breakTotal"></td>
+<td align="center" width="148" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="98" colspan="1" class="breakTotal">R$ 25,00</td>
+</tr>
+<tr><td align="left" width="918" colspan="6" class="break">Luana Maria Dalla Costa</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">JÉSSICA DRECHMER</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">TURMA 32</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 45,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">LUZIA VERONA</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">LUANA MARIA DALLA COSTA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="center" width="78" colspan="1" class="breakTotal"></td>
+<td align="center" width="38" colspan="1" class="breakTotal"></td>
+<td align="center" width="348" colspan="1" class="breakTotal"></td>
+<td align="center" width="148" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="98" colspan="1" class="breakTotal">R$ 105,00</td>
+</tr>
+<tr><td align="left" width="918" colspan="6" class="break">Maria Isabela Ament</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">THAILINE ANDRIONI SASSO</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">MARIA ISABELA AMENT</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="center" width="78" colspan="1" class="breakTotal"></td>
+<td align="center" width="38" colspan="1" class="breakTotal"></td>
+<td align="center" width="348" colspan="1" class="breakTotal"></td>
+<td align="center" width="148" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="98" colspan="1" class="breakTotal">R$ 25,00</td>
+</tr>
+<tr><td align="left" width="918" colspan="6" class="break">Priscilla Alves da Silva</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">LARAH DA SILVA SCHIMDT - ITALIANO</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">PRISCILLA ALVES DA SILVA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="center" width="78" colspan="1" class="breakTotal"></td>
+<td align="center" width="38" colspan="1" class="breakTotal"></td>
+<td align="center" width="348" colspan="1" class="breakTotal"></td>
+<td align="center" width="148" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="98" colspan="1" class="breakTotal">R$ 30,00</td>
+</tr>
+<tr><td align="left" width="918" colspan="6" class="break">Silvestre Volpato</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">MÔNICA APARECIDA DE SIQUEIRA</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">SILVESTRE VOLPATO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">GABRIELA CHIOT DALSASSO</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">SILVESTRE VOLPATO</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">TURMA 39</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">SILVESTRE VOLPATO</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 30,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">ADILAINE CICERA DA SILVA TONIAZZO</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">SILVESTRE VOLPATO</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 30,00</td>
+</tr>
+<tr>
+<td align="center" width="78" colspan="1" class="breakTotal"></td>
+<td align="center" width="38" colspan="1" class="breakTotal"></td>
+<td align="center" width="348" colspan="1" class="breakTotal"></td>
+<td align="center" width="148" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="98" colspan="1" class="breakTotal">R$ 120,00</td>
+</tr>
+<tr><td align="left" width="918" colspan="6" class="break">Svetlana Padilha</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 66</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">SVETLANA PADILHA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 37</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">SVETLANA PADILHA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">EXPERIMENTAL </td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">SVETLANA PADILHA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 71</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">SVETLANA PADILHA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="center" width="78" colspan="1" class="breakTotal"></td>
+<td align="center" width="38" colspan="1" class="breakTotal"></td>
+<td align="center" width="348" colspan="1" class="breakTotal"></td>
+<td align="center" width="148" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="98" colspan="1" class="breakTotal">R$ 100,00</td>
+</tr>
+<tr><td align="left" width="918" colspan="6" class="break">Thales Lira</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">FELIPE PELIZZARO</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">THALES LIRA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">DUPLA 44</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">THALES LIRA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">MEGHAN BRESSAN DEL AGUILA (INDIVIDUAL)</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">THALES LIRA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">ALESSANDRA ROSSI GIRIOLI</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">THALES LIRA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">DUPLA 06</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">THALES LIRA</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datap">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datap">N</td>
+<td align="left" width="348" colspan="1" class="datap">JAQUELINE MARIA MACHADO</td>
+<td align="left" width="148" colspan="1" class="datap">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datap">THALES LIRA</td>
+<td align="right" width="98" colspan="1" class="datap">R$ 25,00</td>
+</tr>
+<tr>
+<td align="center" width="78" colspan="1" class="breakTotal"></td>
+<td align="center" width="38" colspan="1" class="breakTotal"></td>
+<td align="center" width="348" colspan="1" class="breakTotal"></td>
+<td align="center" width="148" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="98" colspan="1" class="breakTotal">R$ 150,00</td>
+</tr>
+<tr><td align="left" width="918" colspan="6" class="break">Viviane Bressan</td>
+</tr>
+<tr>
+<td align="left" width="78" colspan="1" class="datai">11/04/2022</td>
+<td align="left" width="38" colspan="1" class="datai">N</td>
+<td align="left" width="348" colspan="1" class="datai">EDUARDO ORSATTO CASAGRANDE LOPES - ESPANHOL</td>
+<td align="left" width="148" colspan="1" class="datai">VIDEIRA</td>
+<td align="left" width="198" colspan="1" class="datai">VIVIANE BRESSAN</td>
+<td align="right" width="98" colspan="1" class="datai">R$ 25,00</td>
+</tr>
+<tr>
+<td align="center" width="78" colspan="1" class="breakTotal"></td>
+<td align="center" width="38" colspan="1" class="breakTotal"></td>
+<td align="center" width="348" colspan="1" class="breakTotal"></td>
+<td align="center" width="148" colspan="1" class="breakTotal"></td>
+<td align="center" width="198" colspan="1" class="breakTotal"></td>
+<td align="right" width="98" colspan="1" class="breakTotal">R$ 25,00</td>
+</tr>
+<tr>
+<td align="center" width="78" colspan="1" class="total"></td>
+<td align="center" width="38" colspan="1" class="total"></td>
+<td align="center" width="348" colspan="1" class="total"></td>
+<td align="center" width="148" colspan="1" class="total"></td>
+<td align="center" width="198" colspan="1" class="total"></td>
+<td align="right" width="98" colspan="1" class="total">R$ 1.172,50</td>
+</tr>
+</table>
+</html>
